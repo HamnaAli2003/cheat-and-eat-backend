@@ -1,0 +1,20 @@
+[
+  {
+    "id": "240",
+    "name": "Balti Pulao",
+    "is_active": true,
+    "image_url": null
+  },
+  {
+    "id": "854",
+    "name": "Akki Roti",
+    "is_active": true,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Akki_roti.jpg"
+  },
+  {
+    "id": "202",
+    "name": "Lamb Pulao",
+    "is_active": true,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kiUqoAvsx793vFE8TiScfRDcwgem4EiWjqCH8rdhhA&s=10"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-10",
+  "scope": "Active foods only (503). Inactive foods untouched.",
+  "target": "Fix all reviewer-flagged and audit-found image/metadata issues accurately; never assign a wrong image.",
+  "corrections_applied": {
+    "image_clears": 41,
+    "description_fixes": 1,
+    "cleared_reason": "wrong dish content, wrong region, broken URL (400), or non-photo (SVG/diagram/portrait)",
+    "backup": "reports/audit/_correction_backup.2026-09-09T19-26-44-391Z.json",
+    "change_log": "reports/audit/correction-change-log.csv"
+  },
+  "images_filled": {
+    "first_apply": 81,
+    "second_apply": 18,
+    "total_filled": 99,
+    "by_source": { "recovery": 51, "candidate": 38, "curated": 10 },
+    "backups": [
+      "reports/audit/_food_image_backup.2026-09-09T19-39-26-363Z.json",
+      "reports/audit/_food_image_backup.2026-09-09T19-54-11-946Z.json"
+    ],
+    "change_log": "reports/audit/image-change-log.csv"
+  },
+  "final_state": {
+    "active_foods": 503,
+    "active_with_image": 328,
+    "active_missing_image": 175
+  },
+  "wrong_image_guard": {
+    "forbidden_urls_file": "scripts/.forbidden_images.json",
+    "foods_guarded": 73,
+    "note": "Cleared and known-wrong URLs can never be re-added by recovery, candidate, or curated sources."
+  },
+  "scoring_root_fix": {
+    "file": "scripts/lib/imageMatch.js",
+    "change": "Single-token matches embedded in a multi-word title are now MEDIUM (0.65), not HIGH (0.85). Only exact single-token name==title stays HIGH.",
+    "effect": "false positives like 'Karel'->'Karel Gott', 'Puri'->Rath Yatra city, 'Yam'->Bat-Yam coat of arms, 'Mint'->ancient coin now collapse to REVIEW."
+  },
+  "curated_mappings_cleanup": "removed wrong/broken entries: Koki/Sindhi Koki (lachha paratha), Kasata (kalakand), Karadaiyan (shankarpali), Aloo Bukhara Sharbat/Mutton Paye/Paye/Bihari Kebab/Sajji (broken 400/plum-juice URLs).",
+  "still_missing_175":
+    "No adequate, licensed, correctly-matching Wikimedia image found. Mostly regional dishes (Wazwan, Pashtun, GB specialties) and foods whose only Openverse results were wrong. Left REVIEW deliberately rather than risk a wrong image.",
+  "left_for_decision": [
+    "region column is empty across ALL foods (external session cleared it) - app API may not expose it; repopulating needs your approved value set.",
+    "Indian-origin classification: the 79 reviewer-flagged ids were already deactivated by your other cleanup session. Remaining Indian-region foods (e.g., Sandesh, Kamala Bhog, Chikki, Peda) stay active with correct images.",
+    "nutrition templates (e.g., 199.44 kcal clone across Mutton Gosht/Gushtaba/Kadhai/Kofta/Shinwari/Rista) - cannot fabricate macros; needs a real nutrition source.",
+    "Almond sits in 'Fruit' category; no 'Nuts' category exists in food_categories.",
+    "duplicate foods (Suji Halwa/Suji Ka Halwa, Seero, Seekh Kebab variants, Naan nutrition-template clones) - deactivated/external, not merged."
+  ]
+}

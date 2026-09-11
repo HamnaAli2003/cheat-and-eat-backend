@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Food Image System — Read-Only Audit Review</title>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: A4; margin: 16mm 14mm 18mm 14mm; }
+  body { font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; color: #1e293b; line-height: 1.5; margin: 0; }
+  h1 { font-size: 26px; color: #0f172a; margin: 0 0 6px 0; }
+  h2 { font-size: 19px; color: #0f172a; border-bottom: 3px solid #10b981; padding-bottom: 6px; margin: 22px 0 12px 0; }
+  h3 { font-size: 14px; color: #065f46; margin: 16px 0 6px 0; }
+  p { margin: 6px 0; }
+  .sub { color: #64748b; margin-bottom: 18px; }
+  .meta { color: #475569; font-size: 12px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px 0; }
+  th, td { border: 1px solid #d7dde5; padding: 5px 7px; text-align: left; vertical-align: top; font-size: 10.5px; }
+  th { background: #f0fdf6; color: #065f46; }
+  tr:nth-child(even) td { background: #fafcfe; }
+  code { font-family: Consolas, monospace; font-size: 10px; background: #f1f5f9; padding: 0 3px; border-radius: 3px; word-break: break-all; }
+  .muted { color: #94a3b8; }
+  .page-break { page-break-before: always; }
+  .badge { display: inline-block; font-size: 9.5px; font-weight: 700; padding: 1px 7px; border-radius: 9px; }
+  .b-good { background: #dcfce7; color: #166534; }
+  .b-wrong { background: #fee2e2; color: #991b1b; }
+  .b-broken { background: #fee2e2; color: #991b1b; }
+  .b-miss { background: #fef3c7; color: #92400e; }
+  .b-none { background: #e2e8f0; color: #334155; }
+  .box { border: 1px solid #d7dde5; border-left: 4px solid #10b981; background: #f8fafc; padding: 9px 12px; border-radius: 6px; margin: 10px 0; }
+  .box.warn { border-left-color: #f59e0b; background: #fffbeb; }
+  .box.danger { border-left-color: #ef4444; background: #fef2f2; }
+  ul, ol { margin: 6px 0; padding-left: 20px; }
+  li { margin: 3px 0; }
+  .stat-grid { width: 100%; margin: 10px 0; }
+  .stat-grid td { border: 1px solid #d7dde5; background: #f8fafc; padding: 8px 10px; }
+  .stat-grid .num { font-size: 24px; font-weight: 800; color: #065f46; }
+  .note { font-size: 10.5px; color: #64748b; }
+</style>
+</head>
+<body>
+
+<h1>Food Image System — Read-Only Audit Review</h1>
+<div class="sub">Eat &amp; Cheat · Image pipeline halted · no database writes · generated 2026-09-09</div>
+<p class="meta">
+  Scope: all 733 <b>active</b> foods. Sources read: <code>postgresql (read-only SELECT)</code>,
+  <code>scripts/.food_image_results.json</code> (461 Pass-1 records),
+  <code>scripts/.food_image_resolved.json</code> (419 resolution records),
+  <code>scripts/.image_pool.json</code> (600 pooled entries).
+  No image script was run. The only writes made here were this review's own report artifacts
+  in <code>backend/reports/audit/</code>.
+</p>
+
+<h2>1. Executive summary</h2>
+<table class="stat-grid">
+  <tr>
+    <td><div class="num">283</div>GOOD — preserved</td>
+    <td><div class="num">27</div>LIKELY_WRONG — needs manual review</td>
+    <td><div class="num">4</div>BROKEN_URL — definitive HTTP 400</td>
+    <td><div class="num">201</div>MISSING_BUT_PREVIOUS_URL_AVAILABLE (17 reachable)</td>
+    <td><div class="num">218</div>MISSING_NO_CANDIDATE (199 source-only + 19 nothing)</td>
+  </tr>
+</table>
+<p>
+  Of the 314 foods that currently have an <code>image_url</code>, the title/source check kept
+  283 as <span class="badge b-good">GOOD</span>, flagged 27 as
+  <span class="badge b-wrong">LIKELY_WRONG</span> (title has no overlap with the food name,
+  and/or a non-food keyword), and 4 as <span class="badge b-broken">BROKEN_URL</span>.
+  There are <b>zero duplicate image URLs</b> and <b>zero generic <code>Special:FilePath</code>
+  placeholders</b> in the current active catalog.
+</p>
+
+<h2>2. Status classification — definitions &amp; totals</h2>
+<table><thead><tr><th>Status</th><th>Count</th><th>Meaning</th></tr></thead><tbody><tr><td><span class="badge b-good">GOOD</span></td><td>283</td><td>URL present, reachability acceptable, and the matched title shares tokens with the food name.</td></tr><tr><td><span class="badge b-broken">LIKELY_WRONG</span></td><td>27</td><td>URL present but the title has no (or weak) overlap with the food name, or a non-food keyword was found (e.g. "bottle", "palace", "hand").</td></tr><tr><td><span class="badge b-broken">BROKEN_URL</span></td><td>4</td><td>URL returns a definitive HTTP error (4xx).</td></tr><tr><td><span class="badge b-miss">MISSING_BUT_PREVIOUS_URL_AVAILABLE</span></td><td>201</td><td>image_source present, image_url NULL — but a former Pass-1 URL exists in .food_image_results.json.</td></tr><tr><td><span class="badge b-miss">MISSING_NO_CANDIDATE</span></td><td>218</td><td>No recorded URL exists (source-only with no Pass-1 URL, or no source at all).</td></tr></tbody></table>
+
+<div class="note">
+  Reachability sweep: 403 unique URLs probed (314 current + 201 previously assigned). Result:
+  <b>43 confirmed reachable</b>, <b>4 confirmed broken (HTTP 400)</b>,
+  <b>356 “unverified” because Wikimedia answered <code>429 Too Many Requests</code></b> —
+  the audit lowered concurrency and retried, but a full re-sweep with a slow, single-threaded
+  pace is recommended later. Foods whose probe was rate-limited were <b>NOT</b> classified as broken.
+</div>
+
+<h2>3. The 314 foods that currently have an image</h2>
+<h3>3.1 Suspicious existing images (LIKELY_WRONG) — 27</h3>
+<p class="note">Title evidence below; none of these were modified.</p>
+<table><thead><tr><th>Food</th><th>Matched image title</th><th>Score</th><th>Non-food hit</th></tr></thead><tbody><tr><td>Arvi (Colocasia)</td><td>Arvis Piziks 2017</td><td>0</td><td>—</td></tr><tr><td>Banana</td><td>Bananas by the bunch - Carrara Market (2569636765)</td><td>0</td><td>market</td></tr><tr><td>Bohri Gali Drinks</td><td>Limca Bottle, lime soda of India</td><td>0</td><td>bottle</td></tr><tr><td>Chapati</td><td>Baking Chapatis</td><td>0</td><td>—</td></tr><tr><td>Charsi Snacks</td><td>Azerbaijan Light snack</td><td>0</td><td>—</td></tr><tr><td>Cherries (Cherry)</td><td>Prunus avium fruit</td><td>0</td><td>—</td></tr><tr><td>Dampukht</td><td>Pattar ka gosht</td><td>0</td><td>—</td></tr><tr><td>Fort Road Falooda</td><td>Khush Mahal or Sitab Khan Palace near Warangal fort in Warangal, Telangana 12</td><td>0.33</td><td>palace</td></tr><tr><td>Gajrella</td><td>Gajar Ka Halwa a famous Indian Sweet Dish 01</td><td>0</td><td>—</td></tr><tr><td>GB Mountain Tea</td><td>Small cup of green tea</td><td>0.33</td><td>mall</td></tr><tr><td>Hollywood Café Drinks</td><td>Mango shakes</td><td>0</td><td>man</td></tr><tr><td>Karadaiyan</td><td>Shankarpali sweets mithai Western India 2012</td><td>0</td><td>—</td></tr><tr><td>Kasata</td><td>Koderma Kalakand</td><td>0</td><td>—</td></tr><tr><td>Mawa</td><td>Mahmoud Al-Mawas</td><td>0</td><td>—</td></tr><tr><td>Pear (Nakh)</td><td>Prickly pears</td><td>0</td><td>—</td></tr><tr><td>Pumpkin</td><td>Smashing Pumpkins den Atelier,Luxembourg</td><td>0</td><td>—</td></tr><tr><td>Qissa Khwani Snacks</td><td>Peshawari Chapli Kabab by Chef Nina</td><td>0</td><td>—</td></tr><tr><td>Rasgulla</td><td>Rasgullas from Odisha and Bengal</td><td>0</td><td>—</td></tr><tr><td>Rewri</td><td>Gur Rewari (a kind of Gajak) from Lucknow, a traditional Indian snack made with Jaggery and crunchy sesame seeds in the form of crispy bars</td><td>0</td><td>—</td></tr><tr><td>Sindhi Doodh Pak</td><td>Chahao kheer</td><td>0</td><td>—</td></tr><tr><td>Sindhi Karel</td><td>Haagalakaayi (Kannada- ಹಾಗಲಕಾಯಿ) (6781775067)</td><td>0</td><td>—</td></tr><tr><td>Sindhi Koki</td><td>Lachha-paratha</td><td>0</td><td>—</td></tr><tr><td>Sindhi Pedu</td><td>Indian Sweet Dessert Peda in a glass plate</td><td>0</td><td>—</td></tr><tr><td>Sindhi Seero</td><td>Sooji Halwa (Rava Sheera)</td><td>0</td><td>—</td></tr><tr><td>Tinda (Indian Squash)</td><td>Tindas 2017 C1</td><td>0</td><td>—</td></tr><tr><td>Tsot / Gyath</td><td>Tandoori Roti in clay oven</td><td>0</td><td>—</td></tr><tr><td>Wazwan Desserts</td><td>Phirni at Cool Point, Chandni Chawk</td><td>0</td><td>hand</td></tr></tbody></table>
+
+<h3>3.2 Broken URLs (BROKEN_URL) — 4</h3>
+<table><thead><tr><th>Food</th><th>Current URL</th><th>Reason</th></tr></thead><tbody><tr><td>Aloo Pulao</td><td><code>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Plum_juice.jpg/640px-Plum_juice.jpg</code></td><td>url returns HTTP 400 (definitive)</td></tr><tr><td>Bihari Kebab</td><td><code>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Chaaps_and_kebabs.jpg/640px-Chaaps_and_kebabs.jpg</code></td><td>url returns HTTP 400 (definitive)</td></tr><tr><td>Mutton Paye</td><td><code>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Paya_curry_bangladeshi_style.jpg/640px-Paya_curry_bangladeshi_style.jpg</code></td><td>url returns HTTP 400 (definitive)</td></tr><tr><td>Sajji Chawal</td><td><code>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Chicken_sajji.jpg/640px-Chicken_sajji.jpg</code></td><td>url returns HTTP 400 (definitive)</td></tr></tbody></table>
+
+<h3>3.3 Confirmed GOOD examples (sample)</h3>
+<table><thead><tr><th>Food</th><th>Title</th><th>Overlap score</th><th>URL</th></tr></thead><tbody><tr><td>Almond (Baadaam)</td><td>Home-made almond milk, November 2012</td><td>0.5</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/de/Home-made_almond_milk%2C_November_2012.jpg</code></td></tr><tr><td>Aloo Gobi</td><td>Tapenade and green olives on aloo gobi paratha - Massachusetts</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/0/01/Tapenade_and_green_olives_on_aloo_gobi_paratha_-_Massachusetts.jpg</code></td></tr><tr><td>Aloo Kulcha</td><td>Amritsari Aloo Kulcha</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/d7/Amritsari_Aloo_Kulcha.jpg</code></td></tr><tr><td>Aloo Samosa</td><td>Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/d6/Aloo_samosa_-_Sri_Sai_tiffin_centre%2C_Gulmohar_Park_Colony%2C_Serilingampalle_-_Hyderabad_-_DSC_0018.jpg</code></td></tr><tr><td>Aloo Samosa Chaat</td><td>Aloo chaat vendor, Connaught Place, New Delhi</td><td>0.67</td><td><code>https://upload.wikimedia.org/wikipedia/commons/8/8e/Aloo_chaat_vendor%2C_Connaught_Place%2C_New_Delhi.jpg</code></td></tr><tr><td>Aloo Tikki Chaat</td><td>Produce in Borough Market 2019 (Aloo Tikki Chaat)</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/6/6c/Produce_in_Borough_Market_2019_%28Aloo_Tikki_Chaat%29.jpg</code></td></tr><tr><td>Amla (Amla)</td><td>Hashim Amla</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/d7/Hashim_Amla.jpg</code></td></tr><tr><td>Anarsa</td><td>Anarsa</td><td>1</td><td><code>https://upload.wikimedia.org/wikipedia/commons/8/86/Anarsa.jpg</code></td></tr></tbody></table>
+
+<div class="box">
+  <b>Take-away for the new pipeline:</b> the 283 GOOD images must be locked. The new assignment
+  script must treat present + GOOD as immutable unless an explicit curated override says otherwise.
+</div>
+
+<h2>4. The 400 foods with image_source but no image_url</h2>
+<p>
+  <b>201</b> still have their former Pass-1 URL inside <code>.food_image_results.json</code>
+  → these are <b>recovery candidates</b> (URL was stripped out of the database but was recorded).
+  Of those 201, <b>17 confirmed reachable</b> now, <b>1 returns HTTP 400</b>, and <b>183 were
+  rate-limited (429) during this sweep</b> → their recovery viability is “pending verification”.
+  The remaining <b>199</b> have a source label but no recorded URL at all → they must be
+  re-searched from scratch.
+</p>
+<h3>4.1 Why did these URLs disappear?</h3>
+<div class="box warn">
+  No script in <code>backend/scripts/</code> writes <code>image_source</code> without also setting
+  <code>image_url</code> — every writer sets both columns together in one UPDATE. So the 400
+  source-without-URL rows were almost certainly produced by an <b>ad-hoc SQL statement / a
+  temporary experiment that was later deleted</b>, not by any surviving Pass script. The Pass-1
+  records were also lost from the DB at the same time (that's why the receiver of the URL —
+  <code>_tmp_resolve_images.js</code> — found far fewer NULL rows than expected and left 63 rows
+  “needs-review”). This is a data-loss event that predates the current scripts directory.
+</div>
+<h3>4.2 Recovery candidates — sample of 201 (pick 12)</h3>
+<table><thead><tr><th>Food</th><th>Pass-1 previous URL</th><th>Reachability probe</th><th>Former title</th></tr></thead><tbody><tr><td>Achari Biryani</td><td><code>https://upload.wikimedia.org/wikipedia/commons/c/c6/Achari_Biryani.JPG</code></td><td>unverified (429)</td><td>Achari Biryani</td></tr><tr><td>Adrak Chai</td><td><code>https://upload.wikimedia.org/wikipedia/commons/3/3f/Ginger_Tea_%28Adrak_wali_Chai%29.jpg</code></td><td>unverified (429)</td><td>Ginger Tea (Adrak wali Chai)</td></tr><tr><td>Akki Roti</td><td><code>https://upload.wikimedia.org/wikipedia/commons/c/c3/Akki_roti.jpg</code></td><td>unverified (429)</td><td>Akki roti</td></tr><tr><td>Almond</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/de/Home-made_almond_milk%2C_November_2012.jpg</code></td><td>reachable</td><td>Home-made almond milk, November 2012</td></tr><tr><td>Aloo Bukhara Sharbat</td><td><code>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Plum_juice.jpg/640px-Plum_juice.jpg</code></td><td>fail 400</td><td>Aloo Bukhara Sharbat</td></tr><tr><td>Aloo Chaat</td><td><code>https://upload.wikimedia.org/wikipedia/commons/8/8e/Aloo_chaat_vendor%2C_Connaught_Place%2C_New_Delhi.jpg</code></td><td>unverified (429)</td><td>Aloo chaat vendor, Connaught Place, New Delhi</td></tr><tr><td>Aloo Chawal</td><td><code>https://upload.wikimedia.org/wikipedia/commons/c/c3/Saloonay_Chawal_With_Aloo_Gosht.JPG</code></td><td>unverified (429)</td><td>Saloonay Chawal With Aloo Gosht</td></tr><tr><td>Aloo Naan</td><td><code>https://upload.wikimedia.org/wikipedia/commons/0/01/Amritsari_Aloo_Naan_Thali.jpg</code></td><td>unverified (429)</td><td>File:Amritsari Aloo Naan Thali.jpg</td></tr><tr><td>Aloo Pakora</td><td><code>https://upload.wikimedia.org/wikipedia/commons/4/43/Aloo_Pakora_.jpg</code></td><td>unverified (429)</td><td>Aloo Pakora</td></tr><tr><td>Aloo Paratha</td><td><code>https://upload.wikimedia.org/wikipedia/commons/0/08/Aloo_paratha.jpg</code></td><td>unverified (429)</td><td>Aloo paratha</td></tr><tr><td>Aloo Tikki</td><td><code>https://upload.wikimedia.org/wikipedia/commons/4/40/Aloo_Tikki_Fried_%281%29.JPG</code></td><td>unverified (429)</td><td>Aloo Tikki Fried (1)</td></tr><tr><td>Amla</td><td><code>https://upload.wikimedia.org/wikipedia/commons/d/d7/Hashim_Amla.jpg</code></td><td>reachable</td><td>Hashim Amla</td></tr></tbody></table>
+<div class="note">Full list is in <code>food-image-status.csv</code> (columns <code>prev_url</code>, <code>prev_url_reachable</code>).</div>
+
+<h2>5. The 19 foods with no image and no source</h2>
+<table><thead><tr><th>Food</th><th>Category</th></tr></thead><tbody><tr><td>Aloo Chana</td><td>Curry &amp; Kebab</td></tr><tr><td>Beef Qeema</td><td>Curry &amp; Kebab</td></tr><tr><td>Besan Ka Chilla</td><td>Breakfast</td></tr><tr><td>Boiled Eggs</td><td>Meat</td></tr><tr><td>Chicken Kofta</td><td>Curry &amp; Kebab</td></tr><tr><td>Chicken Roll</td><td>Snacks</td></tr><tr><td>Daal Mash</td><td>Daal</td></tr><tr><td>Desi Omelette</td><td>Breakfast</td></tr><tr><td>Egg Fried Rice</td><td>Rice</td></tr><tr><td>Fresh Garden Salad</td><td>Vegetable</td></tr><tr><td>Fresh Orange Juice</td><td>Drinks</td></tr><tr><td>Grilled Chicken Breast</td><td>Meat</td></tr><tr><td>Jeera Rice</td><td>Rice</td></tr><tr><td>Oatmeal (Milk)</td><td>Breakfast</td></tr><tr><td>Palak Paneer</td><td>Sabzi</td></tr><tr><td>Poha (Flattened Rice)</td><td>Breakfast</td></tr><tr><td>Suji ka Halwa</td><td>Dessert</td></tr><tr><td>Vanilla Custard</td><td>Dessert</td></tr><tr><td>Vegetable Pakora</td><td>Snacks</td></tr></tbody></table>
+<div class="box warn">These have nothing to recover — the new pipeline's Openverse search runs here first, and low-confidence results are queued for manual review.</div>
+
+<h2>6. Recommended architecture — ONE clean image-assignment script</h2>
+<div class="page-break"></div>
+<p>Replace the Pass1–4 + buildImagePool + ad-hoc <code>_tmp_*</code> approach with a single,
+well-structured pipeline built around an explicit, human-reviewable plan. Principles:</p>
+<ul>
+  <li><b>Never overwrite a GOOD image.</b> “Has URL + title overlap” = locked.</li>
+  <li><b>No image-pool token matching.</b> Do not copy one food's image onto another unless there is an explicit curated mapping.</li>
+  <li><b>Per-food candidate search</b> against the Openverse API, then score candidates.</li>
+  <li><b>Confidence scoring</b> — every candidate is scored, and only <b>HIGH</b> confidence is auto-assigned; everything else goes to a review CSV.</li>
+</ul>
+
+<h3>6.1 Pipeline layout</h3>
+<table>
+  <thead><tr><th>Script</th><th>What it does</th><th>Writes to DB?</th></tr></thead>
+  <tbody>
+    <tr><td><code>auditFoodImageStatus.js</code></td><td>Read-only classifier (this audit, re-runnable) → status for all 733 foods + reachability sweep with slow throttle.</td><td>No</td></tr>
+    <tr><td><code>buildImageRecoveryPlan.js</code></td><td>For the 201 former URLs: probe + restore-qualified set; verify; emit <code>recovery-plan.json</code> (approved restore list).</td><td>No (dry-run by default)</td></tr>
+    <tr><td><code>searchFoodImageCandidates.js</code></td><td>For MISSING_NO_CANDIDATE (218) only: Openverse query per food name → top candidates with license, title, thumb.</td><td>No</td></tr>
+    <tr><td><code>assignFoodImages.js</code> (rebuilt)</td><td>Reads candidates + scoring rules + curated map. AUTO (score ≥ threshold) or QUIET_SKIP for everything else. <code>--apply</code> flag to write; default dry-run prints the diff.</td><td>Only with <code>--apply</code></td></tr>
+    <tr><td><code>curated-mappings.json</code></td><td>Held-out human-approved fixes (one <code>food name → { title, url, source }</code> per row) — the ONLY way to reuse another food's image.</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h3>6.2 Candidate scoring (HIGH = auto)</h3>
+<ol>
+  <li><b>Food/non-food filter</b> — reject titles containing strong non-food words (hotel, restaurant, bottle, poster, …).</li>
+  <li><b>Name relevance</b> — token overlap between food name and image title (≥ 2 tokens or 100% for single-token foods).</li>
+  <li><b>Category/description relevance</b> — title terms match category descriptors (e.g. “sweet”, “curry”, “rice”, “kebab”).</li>
+  <li><b>Single-winner rule</b> — pick the top-scoring candidate; tie → manual.</li>
+  <li><b>Reachability gate</b> — optional post-assignment verification; unreachable → revert + queue for review.</li>
+  <li>Auto-assign only when score ≥ HIGH threshold (e.g. 0.7); everything else → <code>needs-review.csv</code>.</li>
+</ol>
+
+<h3>6.3 Execution order (all safe, idempotent)</h3>
+<ol>
+  <li>Run audit → record baseline (this document is that baseline).</li>
+  <li>Recovery pass for the 201 (restore verified URLs only; keep others in review).</li>
+  <li>Search + auto-assign HIGH confidence for the ~218 with no candidate.</li>
+  <li>Manual review list → <code>curated-mappings.json</code> → re-run assign to apply.</li>
+  <li>Re-run audit → verify no GOOD image was changed and every status moved to GOOD/REVIEW.</li>
+</ol>
+
+<h2>7. Deliverables produced by this audit</h2>
+<table>
+  <tr><th>File</th><th>Contents</th></tr>
+  <tr><td><code>reports/audit/audit-summary.json</code></td><td>All 733 foods with full classification, flags, previous URL, probe results (machine-readable).</td></tr>
+  <tr><td><code>reports/audit/food-image-status.csv</code></td><td>Same data flattened to CSV (one row per food).</td></tr>
+  <tr><td><code>reports/audit/_reach.json</code></td><td>Raw per-URL reachability probe results.</td></tr>
+</table>
+
+<div class="box danger">
+  <b>Constraint checklist (all honoured):</b> no Pass script executed · no database write ·
+  no <code>Pass5/Pass6</code> created · no temporary script left in <code>scripts/</code> ·
+  all current GOOD images preserved · no image copied from one food to another.
+</div>
+
+</body>
+</html>

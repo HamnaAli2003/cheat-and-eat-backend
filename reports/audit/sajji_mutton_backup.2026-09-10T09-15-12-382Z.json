@@ -1,0 +1,12 @@
+{
+  "removedAt": "2026-09-10T09:15:12.395Z",
+  "foods": [
+    {
+      "id": "355",
+      "name": "Sajji (Mutton)",
+      "category_id": "26",
+      "is_active": true,
+      "has_img": true
+    }
+  ]
+}

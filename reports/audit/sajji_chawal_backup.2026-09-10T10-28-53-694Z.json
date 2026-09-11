@@ -1,0 +1,11 @@
+{
+  "removedAt": "2026-09-10T10:28:53.719Z",
+  "foods": [
+    {
+      "id": "215",
+      "name": "Sajji Chawal",
+      "category_id": "1",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,5133 @@
+[
+  {
+    "id": "190",
+    "name": "Achari Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "773",
+    "name": "Adrak Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "854",
+    "name": "Akki Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Akki roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "1469",
+    "name": "Almond",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Home-made almond milk, November 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1351",
+    "name": "Almond (Baadaam)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Home-made_almond_milk%2C_November_2012.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Home-made almond milk, November 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "465",
+    "name": "Aloo Bukhara Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Bukhara Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "796",
+    "name": "Aloo Bukhara Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Bukhara Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "1236",
+    "name": "Aloo Chaat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo chaat vendor, Connaught Place, New Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1489",
+    "name": "Aloo Chana",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "184",
+    "name": "Aloo Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "9",
+    "name": "Aloo Gobi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tapenade_and_green_olives_on_aloo_gobi_paratha_-_Massachusetts.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "817",
+    "name": "Aloo Kulcha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Amritsari_Aloo_Kulcha.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Amritsari Aloo Kulcha ★)",
+    "is_active": true
+  },
+  {
+    "id": "971",
+    "name": "Aloo Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1228",
+    "name": "Aloo Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "979",
+    "name": "Aloo Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "248",
+    "name": "Aloo Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Plum_juice.jpg/640px-Plum_juice.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Aloo Bukhara Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "1219",
+    "name": "Aloo Samosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Aloo_samosa_-_Sri_Sai_tiffin_centre%2C_Gulmohar_Park_Colony%2C_Serilingampalle_-_Hyderabad_-_DSC_0018.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1051",
+    "name": "Aloo Samosa Chaat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Aloo_chaat_vendor%2C_Connaught_Place%2C_New_Delhi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Aloo chaat vendor, Connaught Place, New Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1263",
+    "name": "Aloo Tikki",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Tikki Fried 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1070",
+    "name": "Aloo Tikki Chaat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Produce_in_Borough_Market_2019_%28Aloo_Tikki_Chaat%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Produce in Borough Market 2019 Aloo Tikki Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "1466",
+    "name": "Amla",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Hashim Amla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1295",
+    "name": "Amla (Amla)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Hashim_Amla.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Hashim Amla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1081",
+    "name": "Anarkali Bazaar Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Keema Curry and Naan in Aichi Halal Bazaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "483",
+    "name": "Anarsa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Anarsa.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Anarsa ★)",
+    "is_active": true
+  },
+  {
+    "id": "526",
+    "name": "Anjeer Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "1456",
+    "name": "Apple",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Chrisdesign_Photorealistic_Green_Apple.svg",
+    "image_source": "Wikimedia Commons via Openverse (Chrisdesign Photorealistic Green Apple ★)",
+    "is_active": true
+  },
+  {
+    "id": "1283",
+    "name": "Apple (Saib)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chrisdesign Photorealistic Green Apple ★)",
+    "is_active": true
+  },
+  {
+    "id": "790",
+    "name": "Apple Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Apple_juice_with_3apples.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Apple juice with 3apples ★)",
+    "is_active": true
+  },
+  {
+    "id": "1348",
+    "name": "Apricot (Khubani)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "652",
+    "name": "Apricot Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/20070107_Apricot.jpg",
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "76",
+    "name": "Arvi (Colocasia)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Arvis_Piziks_2017.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Arvis Piziks 2017)",
+    "is_active": true
+  },
+  {
+    "id": "178",
+    "name": "Arvi Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "598",
+    "name": "Atta Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "808",
+    "name": "Badam Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1297",
+    "name": "Bael (Bel)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bael Aegle marmelos fruit at Narendrapur W IMG 4099 ★)",
+    "is_active": true
+  },
+  {
+    "id": "994",
+    "name": "Bajra ki Roti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/%22Bajra_ki_roti%22.jpg",
+    "image_source": "Wikimedia Commons via Openverse ('Bajra ki roti' ★)",
+    "is_active": true
+  },
+  {
+    "id": "1004",
+    "name": "Bakarkhani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Bakarkhani_001.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bakarkhani 001 ★)",
+    "is_active": true
+  },
+  {
+    "id": "557",
+    "name": "Balochi Barfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (barfi ★)",
+    "is_active": true
+  },
+  {
+    "id": "554",
+    "name": "Balochi Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (jalebi ★)",
+    "is_active": true
+  },
+  {
+    "id": "556",
+    "name": "Balochi Kheer",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "555",
+    "name": "Balochi Kulfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kulfi Faluda ★)",
+    "is_active": true
+  },
+  {
+    "id": "923",
+    "name": "Balochi Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "930",
+    "name": "Balochi Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "1171",
+    "name": "Balochi Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "351",
+    "name": "Balochi Sajji (chicken)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "355",
+    "name": "Balochi Sajji (mutton)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "240",
+    "name": "Balti Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "609",
+    "name": "Balushahi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Balushahi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Balushahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "15",
+    "name": "Banana",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bananas_by_the_bunch_-_Carrara_Market_%282569636765%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (banana ★)",
+    "is_active": true
+  },
+  {
+    "id": "1291",
+    "name": "Banana (Kela)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (banana ★)",
+    "is_active": true
+  },
+  {
+    "id": "800",
+    "name": "Banana Shake",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Banana shake at the Pyongyang Hotel Cafe 1st floor 10195085415 ★)",
+    "is_active": true
+  },
+  {
+    "id": "589",
+    "name": "Barfi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Barfi_-_Indian_sweet.jpg",
+    "image_source": "Wikimedia Commons via Openverse (barfi ★)",
+    "is_active": true
+  },
+  {
+    "id": "166",
+    "name": "Basmati Rice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Khyma_and_Basmati_rice.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Khyma and Basmati rice ★)",
+    "is_active": true
+  },
+  {
+    "id": "422",
+    "name": "BBQ Platter",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kenyan_BBQ_platter_%2814675389216%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kenyan BBQ platter 14675389216 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1002",
+    "name": "Bedmi Puri",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bhel puri chat, photographed in West Bengal, India, September 24, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "287",
+    "name": "Beef Chapli",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "285",
+    "name": "Beef Haleem",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "283",
+    "name": "Beef Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "284",
+    "name": "Beef Korma",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "5",
+    "name": "Beef Nihari",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Beef_Nihari.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Beef Nihari ★)",
+    "is_active": true
+  },
+  {
+    "id": "405",
+    "name": "Beef Paye",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "247",
+    "name": "Beef Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1480",
+    "name": "Beef Qeema",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1173",
+    "name": "Beef Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "288",
+    "name": "Beef Seekh Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1018",
+    "name": "Beguni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Potato Pakora and Beguni ★)",
+    "is_active": true
+  },
+  {
+    "id": "1312",
+    "name": "Ber (Bor)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fre_ftr_ber.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Fre ftr ber)",
+    "is_active": true
+  },
+  {
+    "id": "523",
+    "name": "Besan Barfi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Besan_Ki_Barfi_Recipe_by_Sonia_Goyal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Besan Ki Barfi Recipe by Sonia Goyal ★)",
+    "is_active": true
+  },
+  {
+    "id": "599",
+    "name": "Besan Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Besan Ki Barfi Recipe by Sonia Goyal ★)",
+    "is_active": true
+  },
+  {
+    "id": "1490",
+    "name": "Besan Ka Chilla",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "613",
+    "name": "Besan Laddu",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Besan_laddu_in_West_Bengal%2C_India%2C_photographed_on_May_9%2C_2024.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Besan laddu in West Bengal, India, photographed on May 9, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "849",
+    "name": "Besan Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Besan Ki Barfi Recipe by Sonia Goyal ★)",
+    "is_active": true
+  },
+  {
+    "id": "996",
+    "name": "Bhatura",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chola bhatura ★)",
+    "is_active": true
+  },
+  {
+    "id": "1242",
+    "name": "Bhel Puri",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bhel puri chat, photographed in West Bengal, India, September 24, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "154",
+    "name": "Bhindi Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bharvan Bhindi or Masala Bhindi ★)",
+    "is_active": true
+  },
+  {
+    "id": "10",
+    "name": "Bhindi Masala",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bharvan_Bhindi_or_Masala_Bhindi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bharvan Bhindi or Masala Bhindi ★)",
+    "is_active": true
+  },
+  {
+    "id": "416",
+    "name": "Bihari Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Chaaps_and_kebabs.jpg/640px-Chaaps_and_kebabs.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bihari Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "243",
+    "name": "Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "260",
+    "name": "Biryani (Chicken/Mutton/Beef/Veg)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "137",
+    "name": "Bitter Gourd",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bitter gourd Momordica charantia ★)",
+    "is_active": true
+  },
+  {
+    "id": "770",
+    "name": "Black Tea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Black_tea.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Black tea ★)",
+    "is_active": true
+  },
+  {
+    "id": "693",
+    "name": "Bohri Gali Drinks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Limca_Bottle%2C_lime_soda_of_India.jpg",
+    "image_source": "Wikimedia Commons via Openverse (gali drinks ★)",
+    "is_active": true
+  },
+  {
+    "id": "1133",
+    "name": "Bohri Gali Snacks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Dacres_Lane_%28Tiffin_Gali_or_Dacers_Corner%29%2C_Esplanade%2C_Kolkata_%28Calcutta%29-_700069.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Dacres Lane Tiffin Gali or Dacers Corner, Esplanade, Kolkata Calcutta- 700069 ★)",
+    "is_active": true
+  },
+  {
+    "id": "530",
+    "name": "Bohri Kheer",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "1493",
+    "name": "Boiled Eggs",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "289",
+    "name": "Bong Paye",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Paye ★)",
+    "is_active": true
+  },
+  {
+    "id": "614",
+    "name": "Boondi Laddu",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Matar Pulao, boondi raita, dry roasted-papad ★)",
+    "is_active": true
+  },
+  {
+    "id": "136",
+    "name": "Bottle Gourd",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bottle_gourd_seeds.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bottle gourd seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "966",
+    "name": "Bread",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bread and wine ★)",
+    "is_active": true
+  },
+  {
+    "id": "208",
+    "name": "Bread Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bread_and_wine.svg",
+    "image_source": "Wikimedia Commons via Openverse (Bread and wine ★)",
+    "is_active": true
+  },
+  {
+    "id": "1232",
+    "name": "Bread Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bread Pakora Stuffed with Mashed-Spicy Potatoes ★)",
+    "is_active": true
+  },
+  {
+    "id": "1258",
+    "name": "Bun Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "529",
+    "name": "Burns Road Falooda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Burns_Road_Frozen_Bun_Kebab.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "894",
+    "name": "Burns Road Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "1132",
+    "name": "Burns Road Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "399",
+    "name": "Butter Chicken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "969",
+    "name": "Butter Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "131",
+    "name": "Cabbage",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ugali_and_cabbage.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ugali and cabbage ★)",
+    "is_active": true
+  },
+  {
+    "id": "125",
+    "name": "Carrot",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "53",
+    "name": "Carrots",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/GlassOfJuice_and_carrots.JPG",
+    "image_source": "Wikimedia Commons via Openverse (GlassOfJuice and carrots ★)",
+    "is_active": true
+  },
+  {
+    "id": "1471",
+    "name": "Cashew",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cashew_%40_Paravur.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Cashew @ Paravur ★)",
+    "is_active": true
+  },
+  {
+    "id": "128",
+    "name": "Cauliflower",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Growing_Cauliflower.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Growing Cauliflower ★)",
+    "is_active": true
+  },
+  {
+    "id": "764",
+    "name": "Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "473",
+    "name": "Cham Cham",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Cham-cham_South_Asian_Sweet_West_Bengal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Cham-cham South Asian Sweet West Bengal)",
+    "is_active": true
+  },
+  {
+    "id": "1235",
+    "name": "Chana Chaat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Punjabi_Chana_Chaat.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Punjabi Chana Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "183",
+    "name": "Chana Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Punjabi Chana Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "250",
+    "name": "Chana Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "1027",
+    "name": "Chana Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Punjabi Chana Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "1050",
+    "name": "Chana Tikki",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Punjabi Chana Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "988",
+    "name": "Chapati",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Baking_Chapatis.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Baking Chapatis)",
+    "is_active": true
+  },
+  {
+    "id": "1248",
+    "name": "Chapli Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chapli Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "1257",
+    "name": "Chapli Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chapli Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "330",
+    "name": "Charsi Chicken Tikka",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chicken_Tikka.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "719",
+    "name": "Charsi Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "550",
+    "name": "Charsi Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "919",
+    "name": "Charsi Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "200",
+    "name": "Charsi Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "1168",
+    "name": "Charsi Snacks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Azerbaijan_Light_snack.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Azerbaijan Light snack — query: Snacks)",
+    "is_active": true
+  },
+  {
+    "id": "1146",
+    "name": "Charsi Tikka",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "973",
+    "name": "Cheese Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cheese_Naan.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Cheese Naan ★)",
+    "is_active": true
+  },
+  {
+    "id": "1276",
+    "name": "Cherries (Cherry)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Prunus_avium_fruit.jpg",
+    "image_source": "Wikimedia Commons via Openverse (cherries ★)",
+    "is_active": true
+  },
+  {
+    "id": "1449",
+    "name": "Cherry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (cherry ★)",
+    "is_active": true
+  },
+  {
+    "id": "1390",
+    "name": "Cherry (Cherry)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (cherry ★)",
+    "is_active": true
+  },
+  {
+    "id": "72",
+    "name": "Cherry Tomato",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Open_faced_tuna_sandwich_with_cherry_tomato_and_guacamole_spread.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Open faced tuna sandwich with cherry tomato and guacamole spread ★)",
+    "is_active": true
+  },
+  {
+    "id": "2",
+    "name": "Chicken Biryani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chicken_Biryani.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "397",
+    "name": "Chicken Changezi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Changezi_Chicken.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Changezi Chicken ★)",
+    "is_active": true
+  },
+  {
+    "id": "332",
+    "name": "Chicken Chapli",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "398",
+    "name": "Chicken Haleem",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "394",
+    "name": "Chicken Handi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "396",
+    "name": "Chicken Jalfrezi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Chicken_jalfrezi%2C_Bombay_potato_and_naan.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken jalfrezi, Bombay potato and naan ★)",
+    "is_active": true
+  },
+  {
+    "id": "266",
+    "name": "Chicken Kali Mirch",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chicken_Kali_Mirch.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Kali Mirch ★)",
+    "is_active": true
+  },
+  {
+    "id": "4",
+    "name": "Chicken Karahi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Chicken_Karahi_in_Pakistan.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "1481",
+    "name": "Chicken Kofta",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "393",
+    "name": "Chicken Korma",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Black_Cardamom_Chicken_Korma_-_Leon_2023-10-14.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Black Cardamom Chicken Korma - Leon 2023-10-14 ★)",
+    "is_active": true
+  },
+  {
+    "id": "305",
+    "name": "Chicken Koyla Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "265",
+    "name": "Chicken Makhani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken makhani ★)",
+    "is_active": true
+  },
+  {
+    "id": "299",
+    "name": "Chicken Malai Boti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "306",
+    "name": "Chicken Manchurian",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chicken_Manchurian.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Manchurian ★)",
+    "is_active": true
+  },
+  {
+    "id": "1233",
+    "name": "Chicken Pakora",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chicken_Pakora_Mitra_Cafe.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Pakora Mitra Cafe ★)",
+    "is_active": true
+  },
+  {
+    "id": "3",
+    "name": "Chicken Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Bihari_Style_Pudina_Chicken_Pulao_with_Raita_and_Sabudana_Cutlet.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Bihari Style Pudina Chicken Pulao with Raita and Sabudana Cutlet.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "6",
+    "name": "Chicken Qeema",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Chicken_Qeema_Hari_Mirch.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Qeema Hari Mirch ★)",
+    "is_active": true
+  },
+  {
+    "id": "372",
+    "name": "Chicken Rogan Josh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Biryani_Rice_with_Goat_Masala_and_Lamb_Rogan_Josh_-_Zam_Zam_%28415375255%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Biryani Rice with Goat Masala and Lamb Rogan Josh - Zam Zam 415375255 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1485",
+    "name": "Chicken Roll",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1172",
+    "name": "Chicken Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1220",
+    "name": "Chicken Samosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Karachi_Chicken_Samosa.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Karachi Chicken Samosa ★)",
+    "is_active": true
+  },
+  {
+    "id": "304",
+    "name": "Chicken Shinwari",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1250",
+    "name": "Chicken Tikka",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "374",
+    "name": "Chicken Yakhni",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chicken_Yakhni_Pulao.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Yakhni Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "468",
+    "name": "Chikki",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Chikki_assortment.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chikki assortment ★)",
+    "is_active": true
+  },
+  {
+    "id": "474",
+    "name": "Chum Chum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chum_chums.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chum chums ★)",
+    "is_active": true
+  },
+  {
+    "id": "62",
+    "name": "Cluster Beans",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cluster_Beans_%285193855903%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Cluster Beans 5193855903 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1463",
+    "name": "Coconut",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Maxillaria tenuifolia - coconut orchid - desc-flower - from-DC1.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1292",
+    "name": "Coconut (Nariyal)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Maxillaria_tenuifolia_-_coconut_orchid_-_desc-flower_-_from-DC1.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Maxillaria tenuifolia - coconut orchid - desc-flower - from-DC1.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "522",
+    "name": "Coconut Barfi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Coconut_Barfi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Coconut Barfi ★)",
+    "is_active": true
+  },
+  {
+    "id": "615",
+    "name": "Coconut Laddu",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Desiccated_coconut_laddus_with_gulkand.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Desiccated coconut laddus with gulkand ★)",
+    "is_active": true
+  },
+  {
+    "id": "48",
+    "name": "Collard Greens",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Collard_greens_in_Galicia%2C_Spain.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Collard greens in Galicia, Spain ★)",
+    "is_active": true
+  },
+  {
+    "id": "63",
+    "name": "Colocasia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Colocasia_coryli01.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Colocasia coryli01 ★)",
+    "is_active": true
+  },
+  {
+    "id": "134",
+    "name": "Coriander",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:A scene of Coriander leaves.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "69",
+    "name": "Coriander Leaves",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/A_scene_of_Coriander_leaves.JPG",
+    "image_source": "Wikimedia Commons via Openverse (File:A scene of Coriander leaves.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "86",
+    "name": "Curry Leaves",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Curry_leaves_of_the_tree.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Curry leaves of the tree ★)",
+    "is_active": true
+  },
+  {
+    "id": "7",
+    "name": "Daal Chana",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rice and Daal with Allo-Pyaaz Ki Sabzi ★)",
+    "is_active": true
+  },
+  {
+    "id": "20",
+    "name": "Daal Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rice_and_Daal_with_Allo-Pyaaz_Ki_Sabzi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Rice and Daal with Allo-Pyaaz Ki Sabzi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1478",
+    "name": "Daal Mash",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "8",
+    "name": "Daal Masoor",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Masoor_daal_with_rotla.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Masoor daal with rotla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1237",
+    "name": "Dahi Bhalla",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Dahi_vada_or_dahi_bhalla.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dahi vada or dahi bhalla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1039",
+    "name": "Dahi Bhalla Chaat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dahi vada or dahi bhalla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1244",
+    "name": "Dahi Puri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Dahi_puri%2C_Doi_phuchka.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dahi puri, Doi phuchka ★)",
+    "is_active": true
+  },
+  {
+    "id": "1035",
+    "name": "Dahi Vada",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dahi vada or dahi bhalla ★)",
+    "is_active": true
+  },
+  {
+    "id": "1000",
+    "name": "Dal Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "827",
+    "name": "Dalhi Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Akki roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "350",
+    "name": "Dampukht",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pattar_ka_gosht.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Pattar ka gosht (slow-braised meat))",
+    "is_active": true
+  },
+  {
+    "id": "384",
+    "name": "Dampukht GB",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pattar ka gosht (slow-braised meat))",
+    "is_active": true
+  },
+  {
+    "id": "1460",
+    "name": "Dates",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (dates ★)",
+    "is_active": true
+  },
+  {
+    "id": "1287",
+    "name": "Dates (Khajoor)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ripe_and_dry_dates_fruit_bunches.jpg",
+    "image_source": "Wikimedia Commons via Openverse (dates ★)",
+    "is_active": true
+  },
+  {
+    "id": "82",
+    "name": "Dedhri (Wild Okra)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Wild_okra.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Wild okra)",
+    "is_active": true
+  },
+  {
+    "id": "169",
+    "name": "Degh Biryani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Degh_Biryani_%2811099698394%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Degh Biryani 11099698394 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1488",
+    "name": "Desi Omelette",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1007",
+    "name": "Dhebra",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Dhebra.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dhebra ★)",
+    "is_active": true
+  },
+  {
+    "id": "1135",
+    "name": "Do Darya Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Mixed grill platter)",
+    "is_active": true
+  },
+  {
+    "id": "623",
+    "name": "Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "448",
+    "name": "Doodh Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "765",
+    "name": "Doodh Patti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "17",
+    "name": "Doodh Patti Chai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Doodh_Patti_Chai.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "810",
+    "name": "Doodh Soda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "995",
+    "name": "Dosti Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Akki roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "594",
+    "name": "Double Ka Meetha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Double_ka_Meetha-Bread_Pudding_%2814997594211%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Double ka Meetha-Bread Pudding 14997594211 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1475",
+    "name": "Dried Apricot",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Dried_apricot_01_Pengo.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dried apricot 01 Pengo ★)",
+    "is_active": true
+  },
+  {
+    "id": "1477",
+    "name": "Dried Fig",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dried apricot 01 Pengo ★)",
+    "is_active": true
+  },
+  {
+    "id": "1476",
+    "name": "Dried Plum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Dried_plums_01.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dried plums 01 ★)",
+    "is_active": true
+  },
+  {
+    "id": "61",
+    "name": "Drumsticks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Drumsticks.png",
+    "image_source": "Wikimedia Commons via Openverse (Drumsticks ★)",
+    "is_active": true
+  },
+  {
+    "id": "964",
+    "name": "Dry Fruit Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Bael_%28Aegle_marmelos%29_fruit_at_Narendrapur_W_IMG_4099.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bael Aegle marmelos fruit at Narendrapur W IMG 4099 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1483",
+    "name": "Egg Fried Rice",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "129",
+    "name": "Eggplant",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Eggplant_violet_Jade.svg",
+    "image_source": "Wikimedia Commons via Openverse (Eggplant violet Jade ★)",
+    "is_active": true
+  },
+  {
+    "id": "58",
+    "name": "Eggplant / Brinjal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Thai_eggplant_brinjal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Thai eggplant brinjal ★)",
+    "is_active": true
+  },
+  {
+    "id": "774",
+    "name": "Elaichi Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "592",
+    "name": "Falooda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Falooda big ★)",
+    "is_active": true
+  },
+  {
+    "id": "1447",
+    "name": "Falsa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Falsa cupola di Sant'Ignazio ★)",
+    "is_active": true
+  },
+  {
+    "id": "1274",
+    "name": "Falsa (Phalsa)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Falsa_cupola_di_Sant%27Ignazio.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Falsa cupola di Sant'Ignazio ★)",
+    "is_active": true
+  },
+  {
+    "id": "135",
+    "name": "Fenugreek",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Aesthetic_bunch_of_fenugreek_greens.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Aesthetic bunch of fenugreek greens ★)",
+    "is_active": true
+  },
+  {
+    "id": "46",
+    "name": "Fenugreek Leaves",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Washed_fenugreek_leaves_for_cooking_methi-chadachadi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Washed fenugreek leaves for cooking methi-chadachadi ★)",
+    "is_active": true
+  },
+  {
+    "id": "98",
+    "name": "Fiddlehead Ferns",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Fiddlehead_ferns_for_sale%2C_Portland_Oregon.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Fiddlehead ferns for sale, Portland Oregon ★)",
+    "is_active": true
+  },
+  {
+    "id": "1461",
+    "name": "Figs",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dried figs - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "1288",
+    "name": "Figs (Anjeer)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Dried_figs_-_Massachusetts.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dried figs - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "164",
+    "name": "Firni",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/This_is_a_picture_of_Indian_rice_pudding_or_firni_which_has_been_set_in_a_shallow_earthen_dish.Strands_of_saffron_and_chopped_almonds_and_pistachios_have_been_used_for_garnishing.jpg",
+    "image_source": "Wikimedia Commons via Openverse (This is a picture of Indian rice pudding or firni which has been set in a shallow earthen dish.Strands of saffron and chopped almonds and pistachios have been used for garnishing ★)",
+    "is_active": true
+  },
+  {
+    "id": "585",
+    "name": "Firni / Phirni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Firni Or Phirni Bangladeshi Sweet 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "185",
+    "name": "Fish Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Fish Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "663",
+    "name": "Food Street Chai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/HK_WCD_%E7%81%A3%E4%BB%94_Wan_Chai_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E6%9D%B1_163_Queen%27s_Road_East_%E5%90%88%E5%92%8C%E9%A3%9F%E8%A1%97_Hopewell_Food_Street_January_2026_N13P_03.jpg",
+    "image_source": "Wikimedia Commons via Openverse (HK WCD 灣仔 Wan Chai 皇后大道東 163 Queen's Road East 合和食街 Hopewell Food Street January 2026 N13P 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1077",
+    "name": "Food Street Kebabs",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Salim%27s%2C_Turnpike_Lane%2C_London%2C_England_preparing_and_grilling_kebabs.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Salim's, Turnpike Lane, London, England preparing and grilling kebabs ★)",
+    "is_active": true
+  },
+  {
+    "id": "868",
+    "name": "Food Street Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "491",
+    "name": "Fort Road Falooda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Khush_Mahal_or_Sitab_Khan_Palace_near_Warangal_fort_in_Warangal%2C_Telangana_12.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Khush Mahal or Sitab Khan Palace near Warangal fort in Warangal, Telangana 12 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1080",
+    "name": "Fort Road Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Khush Mahal or Sitab Khan Palace near Warangal fort in Warangal, Telangana 12 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1494",
+    "name": "Fresh Garden Salad",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "642",
+    "name": "Fresh Lime Soda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Citrus_limettioides_-_Palestine_sweet_lime.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Citrus limettioides - Palestine sweet lime ★)",
+    "is_active": true
+  },
+  {
+    "id": "643",
+    "name": "Fresh Lime Water",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Citrus limettioides - Palestine sweet lime ★)",
+    "is_active": true
+  },
+  {
+    "id": "1487",
+    "name": "Fresh Orange Juice",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "471",
+    "name": "Gajak",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gur Rewari a kind of Gajak from Lucknow, a traditional Indian snack made with Jaggery and crunchy sesame seeds in the form of crispy bars ★)",
+    "is_active": true
+  },
+  {
+    "id": "595",
+    "name": "Gajar Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Carrot gajar halwa with kheer India Sweets.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "464",
+    "name": "Gajar ka Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Carrot_gajar_halwa_with_kheer_India_Sweets.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Carrot gajar halwa with kheer India Sweets.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "151",
+    "name": "Gajar Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Food_at_Indic_Wikimedia_Hackathon_2023_07_gajar_Pulao.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Food at Indic Wikimedia Hackathon 2023 07 gajar Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "162",
+    "name": "Gajrela",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Gajrela_.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Gajrela ★)",
+    "is_active": true
+  },
+  {
+    "id": "456",
+    "name": "Gajrella",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Gajar_Ka_Halwa_a_famous_Indian_Sweet_Dish_01.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Gajar ka halwa)",
+    "is_active": true
+  },
+  {
+    "id": "1255",
+    "name": "Galouti Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "123",
+    "name": "Garlic",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Garlic.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Garlic ★)",
+    "is_active": true
+  },
+  {
+    "id": "968",
+    "name": "Garlic Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Garlic_naan%2C_Benares_Cucina_Indian%2C_Toronto%2C_Ontario%2C_2025-08-25.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Garlic naan, Benares Cucina Indian, Toronto, Ontario, 2025-08-25 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1435",
+    "name": "GB Almond",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Home-made almond milk, November 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1433",
+    "name": "GB Apple",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Red_apple_on_white_background.jpg",
+    "image_source": "Wikimedia Commons via Openverse (apple ★)",
+    "is_active": true
+  },
+  {
+    "id": "1434",
+    "name": "GB Apricot",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "1432",
+    "name": "GB Cherry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Open faced tuna sandwich with cherry tomato and guacamole spread ★)",
+    "is_active": true
+  },
+  {
+    "id": "1437",
+    "name": "GB Grape",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Glass of grape juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "762",
+    "name": "GB Mountain Tea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Small_cup_of_green_tea.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Green herbal tea)",
+    "is_active": true
+  },
+  {
+    "id": "1438",
+    "name": "GB Peach",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Karlie in Peach - Paris Haute Couture Spring-Summer 2012.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1439",
+    "name": "GB Plum",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (plum ★)",
+    "is_active": true
+  },
+  {
+    "id": "1214",
+    "name": "GB Seekh Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1436",
+    "name": "GB Walnut",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Walnut ★)",
+    "is_active": true
+  },
+  {
+    "id": "516",
+    "name": "Ghevar",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Paneer_ghevar.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Paneer ghevar ★)",
+    "is_active": true
+  },
+  {
+    "id": "1047",
+    "name": "Ghugni",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ghugni_image.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ghugni image ★)",
+    "is_active": true
+  },
+  {
+    "id": "763",
+    "name": "Gilgit Apricot Drink",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "239",
+    "name": "Gilgit Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "124",
+    "name": "Ginger",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ginger_Tea_%28Adrak_wali_Chai%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "834",
+    "name": "Gobi Mooli Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "980",
+    "name": "Gobi Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "1240",
+    "name": "Gol Gappe",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gol_gappe_%28North_Indian_Style%29.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Gol gappe North Indian Style ★)",
+    "is_active": true
+  },
+  {
+    "id": "413",
+    "name": "Gola Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dryfruit-malai_ice_gola.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dryfruit-malai ice gola ★)",
+    "is_active": true
+  },
+  {
+    "id": "204",
+    "name": "Gosht Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "343",
+    "name": "Gosht Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "232",
+    "name": "Gosht Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "789",
+    "name": "Grape Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Glass_of_grape_juice.jpeg",
+    "image_source": "Wikimedia Commons via Openverse (Glass of grape juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "1453",
+    "name": "Grapefruit",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Citrus paradisi Grapefruit, pink white bg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1280",
+    "name": "Grapefruit (Chakotra)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Citrus paradisi Grapefruit, pink white bg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1459",
+    "name": "Grapes",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (grapes ★)",
+    "is_active": true
+  },
+  {
+    "id": "1286",
+    "name": "Grapes (Angoor)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Red_and_green_grapes_in_a_bowl_01.JPG",
+    "image_source": "Wikimedia Commons via Openverse (grapes ★)",
+    "is_active": true
+  },
+  {
+    "id": "122",
+    "name": "Green Chili",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "74",
+    "name": "Green Mango (raw)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "769",
+    "name": "Green Tea",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "328",
+    "name": "Grill Platter",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Iraqi_Mixed_Grill_Platter_with_Traditional_Accompaniments.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Iraqi Mixed Grill Platter with Traditional Accompaniments ★)",
+    "is_active": true
+  },
+  {
+    "id": "1492",
+    "name": "Grilled Chicken Breast",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1444",
+    "name": "Guava",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Guava ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "1409",
+    "name": "Guava (Amrood)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Guava_ID.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Guava ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "791",
+    "name": "Guava Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Guava_Juice_2025_01.png",
+    "image_source": "Wikimedia Commons via Openverse (Guava Juice 2025 01 ★)",
+    "is_active": true
+  },
+  {
+    "id": "481",
+    "name": "Gujiya",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Paagi_hui_Gujiya_or_Chashni_wali_Gujiya_-_Gujarat_-_SHAILI_002.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Paagi hui Gujiya or Chashni wali Gujiya - Gujarat - SHAILI 002 ★)",
+    "is_active": true
+  },
+  {
+    "id": "586",
+    "name": "Gulab Jamun",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gulab_Jamun.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "611",
+    "name": "Gulgule",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Meethe_Gulgule.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Meethe Gulgule ★)",
+    "is_active": true
+  },
+  {
+    "id": "390",
+    "name": "Gulnar Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "600",
+    "name": "Gur Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "655",
+    "name": "Gur ka Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Bukhara Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "794",
+    "name": "Gur Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Bukhara Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "467",
+    "name": "Gur Wale Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "1403",
+    "name": "Gwadar Date",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (date ★)",
+    "is_active": true
+  },
+  {
+    "id": "809",
+    "name": "Haldi Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "170",
+    "name": "Haleem Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mutton_haleem.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton haleem ★)",
+    "is_active": true
+  },
+  {
+    "id": "21",
+    "name": "Halwa Puri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Halwa_Puri%2C_a_traditional_food_made_in_Walled_City_of_Lahore.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Halwa Puri, a traditional food made in Walled City of Lahore ★)",
+    "is_active": true
+  },
+  {
+    "id": "741",
+    "name": "Hollywood Café Drinks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mango_shakes.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Fresh fruit milkshakes)",
+    "is_active": true
+  },
+  {
+    "id": "1269",
+    "name": "Honeydew (Garma)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dorymyrmex_brunneus_ants_tending_scale_insects_for_honeydew.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Dorymyrmex brunneus ants tending scale insects for honeydew ★)",
+    "is_active": true
+  },
+  {
+    "id": "191",
+    "name": "Hyderabadi Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "608",
+    "name": "Imarti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Paneer_wali_Imarti.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Paneer wali Imarti ★)",
+    "is_active": true
+  },
+  {
+    "id": "466",
+    "name": "Imli Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Imli_Aloo_Bukharay_Sharbat.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Imli Aloo Bukharay Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "656",
+    "name": "Imli ka Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Imli Aloo Bukharay Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "793",
+    "name": "Imli Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Imli Aloo Bukharay Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "81",
+    "name": "Ivy Gourd",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bitter_gourd_%28Momordica_charantia%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bitter gourd Momordica charantia ★)",
+    "is_active": true
+  },
+  {
+    "id": "607",
+    "name": "Jalebi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Jalebi_%28sweet%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (jalebi ★)",
+    "is_active": true
+  },
+  {
+    "id": "781",
+    "name": "Jam-e-Shirin",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rose syrup sharbat)",
+    "is_active": true
+  },
+  {
+    "id": "1446",
+    "name": "Jamun",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "1273",
+    "name": "Jamun (Jaman)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "657",
+    "name": "Jamun ka Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "795",
+    "name": "Jamun Sharbat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "1482",
+    "name": "Jeera Rice",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "740",
+    "name": "Jinnah Road Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (HK WCD 灣仔 Wan Chai 皇后大道東 163 Queen's Road East 合和食街 Hopewell Food Street January 2026 N13P 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "566",
+    "name": "Jinnah Road Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "942",
+    "name": "Jinnah Road Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "1193",
+    "name": "Jinnah Road Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Burns Road Frozen Bun Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "852",
+    "name": "Jowar Roti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Uncultivated_Greens_with_Jowar_Roti_-_Zaheerabad.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Uncultivated Greens with Jowar Roti - Zaheerabad ★)",
+    "is_active": true
+  },
+  {
+    "id": "1468",
+    "name": "Jujube",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Donkey-hide gelatin candied jujube(Laoling Ejiao Mizao))",
+    "is_active": true
+  },
+  {
+    "id": "1298",
+    "name": "Jujube (Bair)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Donkey-hide_gelatin_candied_jujube%28Laoling_Ejiao_Mizao%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Donkey-hide gelatin candied jujube(Laoling Ejiao Mizao))",
+    "is_active": true
+  },
+  {
+    "id": "201",
+    "name": "Kabuli Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kabuli_Pulao.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Kabuli Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "309",
+    "name": "Kachchi Biryani (chicken)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "1223",
+    "name": "Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "1033",
+    "name": "Kachori Puri",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "254",
+    "name": "Kadhi Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kadhi_Chawal_from_India.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kadhi Chawal from India ★)",
+    "is_active": true
+  },
+  {
+    "id": "1019",
+    "name": "Kadhi Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kadhi Chawal from India ★)",
+    "is_active": true
+  },
+  {
+    "id": "766",
+    "name": "Kahwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kahwa 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "798",
+    "name": "Kala Khatta",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dryfruit-malai ice gola)",
+    "is_active": true
+  },
+  {
+    "id": "590",
+    "name": "Kalakand",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Koderma Kalakand ★)",
+    "is_active": true
+  },
+  {
+    "id": "407",
+    "name": "Kaleji Masala",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bharvan Bhindi or Masala Bhindi ★)",
+    "is_active": true
+  },
+  {
+    "id": "476",
+    "name": "Kamala Bhog",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kamala_bhog%2C_a_signature_Bengali_sweet.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kamala bhog, a signature Bengali sweet ★)",
+    "is_active": true
+  },
+  {
+    "id": "797",
+    "name": "Kanji",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wa_Kanji.svg",
+    "image_source": "Wikimedia Commons via Openverse (Wa Kanji ★)",
+    "is_active": true
+  },
+  {
+    "id": "1333",
+    "name": "Karachi Banana",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (banana ★)",
+    "is_active": true
+  },
+  {
+    "id": "897",
+    "name": "Karachi Bhatura",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chola bhatura ★)",
+    "is_active": true
+  },
+  {
+    "id": "1127",
+    "name": "Karachi Bun Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1131",
+    "name": "Karachi Chaat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo chaat vendor, Connaught Place, New Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "318",
+    "name": "Karachi Chapli Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Chapli_Kebab.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chapli Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "690",
+    "name": "Karachi Falooda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Falooda big ★)",
+    "is_active": true
+  },
+  {
+    "id": "1334",
+    "name": "Karachi Guava",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Guava ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "527",
+    "name": "Karachi Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "528",
+    "name": "Karachi Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Jalebi sweet ★)",
+    "is_active": true
+  },
+  {
+    "id": "1129",
+    "name": "Karachi Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "666",
+    "name": "Karachi Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1335",
+    "name": "Karachi Lychee",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lychee fruits and seed ★)",
+    "is_active": true
+  },
+  {
+    "id": "1332",
+    "name": "Karachi Mango",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "893",
+    "name": "Karachi Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1130",
+    "name": "Karachi Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "896",
+    "name": "Karachi Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "1128",
+    "name": "Karachi Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "484",
+    "name": "Karadaiyan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Shankarpali_sweets_mithai_Western_India_2012.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali (flour-based mithai))",
+    "is_active": true
+  },
+  {
+    "id": "143",
+    "name": "Karahi Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "180",
+    "name": "Karela Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Karela_Stu_with_Masha_Daal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Karela Stu with Masha Daal ★)",
+    "is_active": true
+  },
+  {
+    "id": "457",
+    "name": "Kasata",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Koderma_Kalakand.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kalakand (milk-based sweet))",
+    "is_active": true
+  },
+  {
+    "id": "231",
+    "name": "Kashmiri Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "742",
+    "name": "Kashmiri Chai (Noon Chai)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "371",
+    "name": "Kashmiri Chicken Curry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "570",
+    "name": "Kashmiri Firni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (This is a picture of Indian rice pudding or firni which has been set in a shallow earthen dish.Strands of saffron and chopped almonds and pistachios have been used for garnishing ★)",
+    "is_active": true
+  },
+  {
+    "id": "567",
+    "name": "Kashmiri Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "569",
+    "name": "Kashmiri Kheer",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "568",
+    "name": "Kashmiri Kulfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kulfi Faluda ★)",
+    "is_active": true
+  },
+  {
+    "id": "583",
+    "name": "Kashmiri Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "944",
+    "name": "Kashmiri Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "760",
+    "name": "Kashmiri Noon Chai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Noon_Chai.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Noon Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1196",
+    "name": "Kashmiri Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "949",
+    "name": "Kashmiri Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "582",
+    "name": "Kashmiri Phirni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Firni Or Phirni Bangladeshi Sweet 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "230",
+    "name": "Kashmiri Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "421",
+    "name": "Kebab Platter",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Chicken_%C3%87%C3%B6p_Kebab_Platter_-_Lavash_2025-12-26.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken Çöp Kebab Platter - Lavash 2025-12-26 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1216",
+    "name": "Kebab Roll",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Kebab_roll_-_chaiiwala_2024-02-10.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kebab roll - chaiiwala 2024-02-10 ★)",
+    "is_active": true
+  },
+  {
+    "id": "970",
+    "name": "Keema Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Keema_Curry_and_Naan_in_Aichi_Halal_Bazaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "Wikimedia Commons via Openverse (Keema Curry and Naan in Aichi Halal Bazaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "983",
+    "name": "Keema Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Keema_Paratha_by_Preeti_Tamilarasan_%28cropped%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Keema Paratha by Preeti Tamilarasan cropped ★)",
+    "is_active": true
+  },
+  {
+    "id": "1221",
+    "name": "Keema Samosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bohra_Style_Keema_Samosa.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Bohra Style Keema Samosa.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "807",
+    "name": "Kesar Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kesar doodh or Saffron milk - a popular food item of North India.It is milk boiled with Saffron and sugar.This is a street vendor in Gwalior, Madhyapradesh in India selling Saffron milk ★)",
+    "is_active": true
+  },
+  {
+    "id": "454",
+    "name": "Kesar Kulfi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Mango_Kesar_Kulfi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mango Kesar Kulfi ★)",
+    "is_active": true
+  },
+  {
+    "id": "621",
+    "name": "Kesar Lassi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Kesar_doodh_or_Saffron_milk_-_a_popular_food_item_of_North_India.It_is_milk_boiled_with_Saffron_and_sugar.This_is_a_street_vendor_in_Gwalior%2C_Madhyapradesh_in_India_selling_Saffron_milk.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kesar doodh or Saffron milk - a popular food item of North India.It is milk boiled with Saffron and sugar.This is a street vendor in Gwalior, Madhyapradesh in India selling Saffron milk ★)",
+    "is_active": true
+  },
+  {
+    "id": "480",
+    "name": "Khaja",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Baleswari_khaja_pheni_Oriya_cuisine.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Baleswari khaja pheni Oriya cuisine ★)",
+    "is_active": true
+  },
+  {
+    "id": "991",
+    "name": "Khamiri Roti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Khamiri_Roti.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Khamiri Roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "1001",
+    "name": "Khasta Kachori",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Khasta_kachori.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Khasta kachori ★)",
+    "is_active": true
+  },
+  {
+    "id": "163",
+    "name": "Kheer",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kheer.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "256",
+    "name": "Khichdi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Khichdi_Prasadam_in_Donna_%28Iskcon_Bangalore%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Khichdi Prasadam in Donna Iskcon Bangalore ★)",
+    "is_active": true
+  },
+  {
+    "id": "477",
+    "name": "Khoa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Almond_Khoa_based_burfi_Mumbai_India.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Almond Khoa based burfi Mumbai India ★)",
+    "is_active": true
+  },
+  {
+    "id": "606",
+    "name": "Khurma",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sheer Khurma ★)",
+    "is_active": true
+  },
+  {
+    "id": "1451",
+    "name": "Kinnow",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Flowers of Kinnow ★)",
+    "is_active": true
+  },
+  {
+    "id": "1278",
+    "name": "Kinnow (Kinoo)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Flowers_of_Kinnow.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Flowers of Kinnow ★)",
+    "is_active": true
+  },
+  {
+    "id": "1008",
+    "name": "Koki",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (koki ★)",
+    "is_active": true
+  },
+  {
+    "id": "408",
+    "name": "Korma",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Black Cardamom Chicken Korma - Leon 2023-10-14 ★)",
+    "is_active": true
+  },
+  {
+    "id": "976",
+    "name": "Kulcha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Amritsari Aloo Kulcha ★)",
+    "is_active": true
+  },
+  {
+    "id": "591",
+    "name": "Kulfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kulfi Faluda ★)",
+    "is_active": true
+  },
+  {
+    "id": "805",
+    "name": "Kulfi Falooda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Malai kulfi rabri falooda ★)",
+    "is_active": true
+  },
+  {
+    "id": "479",
+    "name": "Lachha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lachha_Paratha_and_Chilly_Chicken.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Lachha Paratha and Chilly Chicken ★)",
+    "is_active": true
+  },
+  {
+    "id": "985",
+    "name": "Lachha Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lachha Paratha and Chilly Chicken ★)",
+    "is_active": true
+  },
+  {
+    "id": "432",
+    "name": "Laddu",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Besan laddu in West Bengal, India, photographed on May 9, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1076",
+    "name": "Lahori Aloo Tikki",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aloo_Tikki_Fried_%281%29.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Aloo Tikki Fried 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "141",
+    "name": "Lahori Beef Biryani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Famous_beef_biryani_of_kolkata.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Famous beef biryani of kolkata ★)",
+    "is_active": true
+  },
+  {
+    "id": "864",
+    "name": "Lahori Bhatura",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chola_bhatura.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chola bhatura ★)",
+    "is_active": true
+  },
+  {
+    "id": "227",
+    "name": "Lahori Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "1078",
+    "name": "Lahori Bun Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1079",
+    "name": "Lahori Chaat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo chaat vendor, Connaught Place, New Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "139",
+    "name": "Lahori Chicken Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "261",
+    "name": "Lahori Chicken Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "1075",
+    "name": "Lahori Dahi Bhalla",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Dahi vada or dahi bhalla ★)",
+    "is_active": true
+  },
+  {
+    "id": "661",
+    "name": "Lahori Doodh Patti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (doodh patti ★)",
+    "is_active": true
+  },
+  {
+    "id": "486",
+    "name": "Lahori Falooda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Falooda_big.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Falooda big ★)",
+    "is_active": true
+  },
+  {
+    "id": "157",
+    "name": "Lahori Fish Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fish_Pulao.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Fish Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "1074",
+    "name": "Lahori Gol Gappe",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gol gappe North Indian Style ★)",
+    "is_active": true
+  },
+  {
+    "id": "487",
+    "name": "Lahori Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (jalebi ★)",
+    "is_active": true
+  },
+  {
+    "id": "865",
+    "name": "Lahori Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "863",
+    "name": "Lahori Kulcha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Amritsari Aloo Kulcha ★)",
+    "is_active": true
+  },
+  {
+    "id": "488",
+    "name": "Lahori Kulfi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Kulfi_Faluda.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Kulfi Faluda ★)",
+    "is_active": true
+  },
+  {
+    "id": "660",
+    "name": "Lahori Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "867",
+    "name": "Lahori Missi Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "140",
+    "name": "Lahori Mutton Biryani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Awadhi_mutton_biryani.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "862",
+    "name": "Lahori Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1073",
+    "name": "Lahori Pakora",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Aloo_Pakora_.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "866",
+    "name": "Lahori Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "489",
+    "name": "Lahori Rabri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rabri.JPG",
+    "image_source": "Wikimedia Commons via Openverse (rabri ★)",
+    "is_active": true
+  },
+  {
+    "id": "490",
+    "name": "Lahori Ras Malai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1026",
+    "name": "Lahori Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "187",
+    "name": "Lahori/Keema Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "336",
+    "name": "Lamb Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lamb Karachi Karahi - Bengal Bertie's 2025-12-15 ★)",
+    "is_active": true
+  },
+  {
+    "id": "202",
+    "name": "Lamb Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lamb_Karachi_Karahi_-_Bengal_Bertie%27s_2025-12-15.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Lamb Karachi Karahi - Bengal Bertie's 2025-12-15 ★)",
+    "is_active": true
+  },
+  {
+    "id": "356",
+    "name": "Lamb Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lamb Karachi Karahi - Bengal Bertie's 2025-12-15 ★)",
+    "is_active": true
+  },
+  {
+    "id": "348",
+    "name": "Lamb Seekh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lamb Karachi Karahi - Bengal Bertie's 2025-12-15 ★)",
+    "is_active": true
+  },
+  {
+    "id": "363",
+    "name": "Landhi Rosh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Coat of arms of Rosh HaAyin ★)",
+    "is_active": true
+  },
+  {
+    "id": "775",
+    "name": "Lassi (Plain)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "632",
+    "name": "Lassi Milkshake",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Salt_lassi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "71",
+    "name": "Lemon",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lemon.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Lemon ★)",
+    "is_active": true
+  },
+  {
+    "id": "1281",
+    "name": "Lemon (Limbu)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lemon ★)",
+    "is_active": true
+  },
+  {
+    "id": "792",
+    "name": "Lemon Soda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/7up_lithiated_lemon_soda_bottle_cap.jpg",
+    "image_source": "Wikimedia Commons via Openverse (7up lithiated lemon soda bottle cap ★)",
+    "is_active": true
+  },
+  {
+    "id": "771",
+    "name": "Lemon Tea",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lemon ★)",
+    "is_active": true
+  },
+  {
+    "id": "1445",
+    "name": "Lychee",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Lychee fruits and seed ★)",
+    "is_active": true
+  },
+  {
+    "id": "1272",
+    "name": "Lychee (Litchi)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lychee_fruits_and_seed.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Lychee fruits and seed ★)",
+    "is_active": true
+  },
+  {
+    "id": "159",
+    "name": "Machli Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "538",
+    "name": "Makhadi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Zakheera_e_Books_Of_Iftakhar_Ahmad_in_Makhadi_Attock_%26_Khuzdar_Authorize_to_Upload_July_2021.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Zakheera e Books Of Iftakhar Ahmad in Makhadi Attock & Khuzdar Authorize to Upload July 2021 ★)",
+    "is_active": true
+  },
+  {
+    "id": "993",
+    "name": "Makki ki Roti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Makki_ki_Roti_03.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Makki ki Roti 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "841",
+    "name": "Malabar Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "1254",
+    "name": "Malai Boti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1260",
+    "name": "Malai Boti Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "610",
+    "name": "Malpua",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/MalPua.JPG",
+    "image_source": "Wikimedia Commons via Openverse (MalPua ★)",
+    "is_active": true
+  },
+  {
+    "id": "452",
+    "name": "Malpua Rabri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Rabri_Malpua.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Rabri Malpua ★)",
+    "is_active": true
+  },
+  {
+    "id": "1452",
+    "name": "Mandarin",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Second tone Mandarin ★)",
+    "is_active": true
+  },
+  {
+    "id": "1279",
+    "name": "Mandarin (Suntara)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Second_tone_%28Mandarin%29.svg",
+    "image_source": "Wikimedia Commons via Openverse (Second tone Mandarin ★)",
+    "is_active": true
+  },
+  {
+    "id": "14",
+    "name": "Mango",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Birthday_party_thali_-_Pulao%2C_chana_dal%2C_pork_with_potato_curry%2C_pork_stir-fried_with_lai_sak_%28mustard_greens%29_and_onion%2C_crispy_potato_fries%2C_brinjal_dipped_in_besan_batter_fry%2C_green_chutney%2C_and_mango_achaar.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "1266",
+    "name": "Mango (Aam)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "785",
+    "name": "Mango Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ascorbic_acid_titration_on_juices_-_mango_juice.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ascorbic acid titration on juices - mango juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "778",
+    "name": "Mango Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Coffee and mango lassi at restaurant South Asian Street Food ★)",
+    "is_active": true
+  },
+  {
+    "id": "799",
+    "name": "Mango Shake",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Mango shakes ★)",
+    "is_active": true
+  },
+  {
+    "id": "772",
+    "name": "Masala Chai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Masala_Chai.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Masala Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1264",
+    "name": "Masala Corn",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Masala_corn_by_be_hungry.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Masala corn by be hungry ★)",
+    "is_active": true
+  },
+  {
+    "id": "249",
+    "name": "Matar Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Matar_Pulao%2C_boondi_raita%2C_dry_roasted-papad.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Matar Pulao, boondi raita, dry roasted-papad ★)",
+    "is_active": true
+  },
+  {
+    "id": "447",
+    "name": "Mathura Peda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Peda Makers of Bokakhat ★)",
+    "is_active": true
+  },
+  {
+    "id": "153",
+    "name": "Mattar Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Saloonay_Chawal_With_Aloo_Gosht.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "478",
+    "name": "Mawa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mahmoud_Al-Mawas.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mahmoud Al-Mawas)",
+    "is_active": true
+  },
+  {
+    "id": "517",
+    "name": "Mawa Kachori",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Urad_Dal_ki_Kachori_while_making.JPG",
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "193",
+    "name": "Meethe Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Meethe_Chawal_Also_called_Meetha_bhatt_Eaten_in_Kangra_district_of_Himachal_Pradesh_as_a_dessert_often_served_in_the_last_of_shaam.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Meethe Chawal Also called Meetha bhatt Eaten in Kangra district of Himachal Pradesh as a dessert often served in the last of shaam ★)",
+    "is_active": true
+  },
+  {
+    "id": "189",
+    "name": "Memoni Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "531",
+    "name": "Memoni Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "984",
+    "name": "Methi Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Methi_Paratha_by_Fatima.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Methi Paratha by Fatima ★)",
+    "is_active": true
+  },
+  {
+    "id": "518",
+    "name": "Milk Cake",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Slice_milk_cake.png",
+    "image_source": "Wikimedia Commons via Openverse (Slice milk cake ★)",
+    "is_active": true
+  },
+  {
+    "id": "70",
+    "name": "Mint",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Mint_bread_kvas.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mint bread kvas ★)",
+    "is_active": true
+  },
+  {
+    "id": "1231",
+    "name": "Mirch Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Kali Mirch ★)",
+    "is_active": true
+  },
+  {
+    "id": "992",
+    "name": "Missi Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "637",
+    "name": "Mixed Fruit Shake",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Iraqi Mixed Grill Platter with Traditional Accompaniments ★)",
+    "is_active": true
+  },
+  {
+    "id": "803",
+    "name": "Mixed Shake",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Iraqi Mixed Grill Platter with Traditional Accompaniments ★)",
+    "is_active": true
+  },
+  {
+    "id": "844",
+    "name": "Mixed Veg Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Iraqi Mixed Grill Platter with Traditional Accompaniments ★)",
+    "is_active": true
+  },
+  {
+    "id": "515",
+    "name": "Mohanthal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mohanthal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mohanthal ★)",
+    "is_active": true
+  },
+  {
+    "id": "981",
+    "name": "Mooli Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Mooli_Paratha.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mooli Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "597",
+    "name": "Moong Dal Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Moong_dal_halwa.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Moong dal halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "168",
+    "name": "Moti Biryani",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Achari_Biryani.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "612",
+    "name": "Motichoor Laddu",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Motichoor_Laddu.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Motichoor Laddu ★)",
+    "is_active": true
+  },
+  {
+    "id": "986",
+    "name": "Mughlai Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mughlai_Paratha.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mughlai Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "1448",
+    "name": "Mulberry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Black Mulberry Female Flowers ★)",
+    "is_active": true
+  },
+  {
+    "id": "1275",
+    "name": "Mulberry (Tut)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Black_Mulberry_Female_Flowers.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Black Mulberry Female Flowers ★)",
+    "is_active": true
+  },
+  {
+    "id": "1299",
+    "name": "Multani Mango",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "253",
+    "name": "Murgh Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "268",
+    "name": "Murgh Musallam",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Murgh_Musallam.JPG",
+    "image_source": "Wikimedia Commons via Openverse (File:Murgh Musallam.JPG)",
+    "is_active": true
+  },
+  {
+    "id": "1442",
+    "name": "Muskmelon",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Muskmelon Seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "1268",
+    "name": "Muskmelon (Kharbooz)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Muskmelon_Seeds.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Muskmelon Seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "279",
+    "name": "Mutton Chapli",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "277",
+    "name": "Mutton Gosht",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "382",
+    "name": "Mutton Gushtaba",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "406",
+    "name": "Mutton Haleem",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Mutton haleem ★)",
+    "is_active": true
+  },
+  {
+    "id": "281",
+    "name": "Mutton Kadhai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "400",
+    "name": "Mutton Karahi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mutton_Karahi_2.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Mutton Karahi 2 ★)",
+    "is_active": true
+  },
+  {
+    "id": "380",
+    "name": "Mutton Kofta",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "401",
+    "name": "Mutton Korma",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Mutton_korma.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Mutton korma ★)",
+    "is_active": true
+  },
+  {
+    "id": "311",
+    "name": "Mutton Kunna",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "402",
+    "name": "Mutton Nihari",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mutton_Nihari.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton Nihari ★)",
+    "is_active": true
+  },
+  {
+    "id": "404",
+    "name": "Mutton Paye",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Paya_curry_bangladeshi_style.jpg/640px-Paya_curry_bangladeshi_style.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton Paye ★)",
+    "is_active": true
+  },
+  {
+    "id": "246",
+    "name": "Mutton Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chennuru Mutton Pulao , a special Rayalaseema dish ★)",
+    "is_active": true
+  },
+  {
+    "id": "381",
+    "name": "Mutton Rista",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "280",
+    "name": "Mutton Rogan Josh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mutton_rogan_Josh_%28kashmiri_cuisine%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton rogan Josh kashmiri cuisine ★)",
+    "is_active": true
+  },
+  {
+    "id": "312",
+    "name": "Mutton Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "278",
+    "name": "Mutton Seekh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mutton_Seekh_%289454117913%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton Seekh 9454117913 ★)",
+    "is_active": true
+  },
+  {
+    "id": "338",
+    "name": "Mutton Seekh Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mutton_Seekh_Kebab_getting_grilled.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mutton Seekh Kebab getting grilled ★)",
+    "is_active": true
+  },
+  {
+    "id": "335",
+    "name": "Mutton Shinwari",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "376",
+    "name": "Mutton Yakhni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "445",
+    "name": "Mysore Pak",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mysore_pak.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mysore pak ★)",
+    "is_active": true
+  },
+  {
+    "id": "967",
+    "name": "Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "814",
+    "name": "Naan Khush",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Amritsari_Aloo_Naan_Thali.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "815",
+    "name": "Naan Roz",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "364",
+    "name": "Namkeen Gosht",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "768",
+    "name": "Noon Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Noon Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1495",
+    "name": "Oatmeal (Milk)",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "130",
+    "name": "Okra",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Hong Kong Okra Aug 25 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "43",
+    "name": "Okra / Ladyfinger",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Arka_anamika_okra_bhendi_ladyfinger_seeds.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Arka anamika okra bhendi ladyfinger seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "120",
+    "name": "Onion",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "105",
+    "name": "Onions",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mixed_onions.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Mixed onions ★)",
+    "is_active": true
+  },
+  {
+    "id": "1450",
+    "name": "Orange",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/600px_horizontal_Black_Orange_HEX-FF8A00.svg",
+    "image_source": "Wikimedia Commons via Openverse (File:600px horizontal Black Orange HEX-FF8A00.svg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1277",
+    "name": "Orange (Malta)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:600px horizontal Black Orange HEX-FF8A00.svg ★)",
+    "is_active": true
+  },
+  {
+    "id": "786",
+    "name": "Orange Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Orange_juice.svg",
+    "image_source": "Wikimedia Commons via Openverse (Orange juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "1227",
+    "name": "Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "155",
+    "name": "Palak Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Palak_Paratha.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Palak Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "1230",
+    "name": "Palak Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Palak Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "1479",
+    "name": "Palak Paneer",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "838",
+    "name": "Palak Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Palak Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "972",
+    "name": "Paneer Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Butter_Naan_With_Paneer_Butter_Masala.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Butter Naan With Paneer Butter Masala ★)",
+    "is_active": true
+  },
+  {
+    "id": "1234",
+    "name": "Paneer Pakora",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Preparing_Paneer_Pakoras.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Preparing Paneer Pakoras ★)",
+    "is_active": true
+  },
+  {
+    "id": "982",
+    "name": "Paneer Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Awadhi_palak_paneer_paratha_dahi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Awadhi palak paneer paratha dahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1222",
+    "name": "Paneer Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Naan With Paneer Butter Masala ★)",
+    "is_active": true
+  },
+  {
+    "id": "1241",
+    "name": "Pani Puri",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pani Puri - Perfect Street food ★)",
+    "is_active": true
+  },
+  {
+    "id": "1043",
+    "name": "Pani Puri Chaat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Pani_Puri_-_Perfect_Street_food.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Pani Puri - Perfect Street food ★)",
+    "is_active": true
+  },
+  {
+    "id": "1443",
+    "name": "Papaya",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (California Papaya ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "1270",
+    "name": "Papaya (Papeeta)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (California Papaya ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "802",
+    "name": "Papaya Shake",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/California_Papaya_ID.jpg",
+    "image_source": "Wikimedia Commons via Openverse (California Papaya ID ★)",
+    "is_active": true
+  },
+  {
+    "id": "472",
+    "name": "Papri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Bhalla_Papri_Chaat_with_saunth_chutney.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bhalla Papri Chaat with saunth chutney ★)",
+    "is_active": true
+  },
+  {
+    "id": "1239",
+    "name": "Papri Chaat",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bhalla Papri Chaat with saunth chutney ★)",
+    "is_active": true
+  },
+  {
+    "id": "977",
+    "name": "Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "317",
+    "name": "Paya Nihari",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gosht_Paya_Nihari.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Gosht Paya Nihari ★)",
+    "is_active": true
+  },
+  {
+    "id": "485",
+    "name": "Payasam",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Paal_payasam.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Paal payasam ★)",
+    "is_active": true
+  },
+  {
+    "id": "1349",
+    "name": "Peach (Aaroo)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Karlie_in_Peach_-_Paris_Haute_Couture_Spring-Summer_2012.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Karlie in Peach - Paris Haute Couture Spring-Summer 2012.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "651",
+    "name": "Peach Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Florina_Peach_Juice_250ml.png",
+    "image_source": "Wikimedia Commons via Openverse (Florina Peach Juice 250ml ★)",
+    "is_active": true
+  },
+  {
+    "id": "1457",
+    "name": "Pear",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Prickly pears)",
+    "is_active": true
+  },
+  {
+    "id": "1284",
+    "name": "Pear (Nakh)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Prickly_pears.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Prickly pears)",
+    "is_active": true
+  },
+  {
+    "id": "126",
+    "name": "Peas",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_Black_Eyed_Peas_en_concert_au_VIP_Room_Paris_3.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Les Black Eyed Peas en concert au VIP Room Paris 3.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "446",
+    "name": "Peda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Peda_Makers_of_Bokakhat.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Peda Makers of Bokakhat ★)",
+    "is_active": true
+  },
+  {
+    "id": "1289",
+    "name": "Persimmon (Amlook)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Persimmon_0375.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Persimmon 0375 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1140",
+    "name": "Peshawari Chapli",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chapli Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "1163",
+    "name": "Peshawari Chapli Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chapli Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "329",
+    "name": "Peshawari Chicken Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "198",
+    "name": "Peshawari Chicken Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Bihari Style Pudina Chicken Pulao with Raita and Sabudana Cutlet.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "533",
+    "name": "Peshawari Falooda",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Falooda big ★)",
+    "is_active": true
+  },
+  {
+    "id": "535",
+    "name": "Peshawari Gulab Jamun",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "536",
+    "name": "Peshawari Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "534",
+    "name": "Peshawari Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (jalebi ★)",
+    "is_active": true
+  },
+  {
+    "id": "717",
+    "name": "Peshawari Kahwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kahwa_1.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Kahwa 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "532",
+    "name": "Peshawari Kulfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kulfi Faluda ★)",
+    "is_active": true
+  },
+  {
+    "id": "695",
+    "name": "Peshawari Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "549",
+    "name": "Peshawari Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "199",
+    "name": "Peshawari Mutton Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Chennuru_Mutton_Pulao_%2C_a_special_Rayalaseema_dish.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chennuru Mutton Pulao , a special Rayalaseema dish ★)",
+    "is_active": true
+  },
+  {
+    "id": "901",
+    "name": "Peshawari Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "907",
+    "name": "Peshawari Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "197",
+    "name": "Peshawari Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "974",
+    "name": "Peshwari Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "431",
+    "name": "Petha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Petha-from-Agra.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Petha-from-Agra)",
+    "is_active": true
+  },
+  {
+    "id": "437",
+    "name": "Phirni",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Firni_Or_Phirni_Bangladeshi_Sweet_%281%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Firni Or Phirni Bangladeshi Sweet 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "989",
+    "name": "Phulka",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Jasmit_Phulka.png",
+    "image_source": "Wikimedia Commons via Openverse (Jasmit Phulka ★)",
+    "is_active": true
+  },
+  {
+    "id": "1474",
+    "name": "Pine Nut",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Siberian_pine_nuts-2.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Siberian pine nuts-2 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1473",
+    "name": "Pistachio",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tulumba_with_kaymak_and_pistachio.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tulumba with kaymak and pistachio ★)",
+    "is_active": true
+  },
+  {
+    "id": "12",
+    "name": "Plain Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Non-veg_platter_during_the_First_WikiSanjog_Conference_2025_-_plain_rice%2C_dal%2C_rajma%2C_fish_with_mustard%2C_chicken_curry%2C_carrot_and_cucumber_salad%2C_pickle%2C_green_chili%2C_papad%2C_and_kheer._03.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1",
+    "name": "Plain Rice",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "252",
+    "name": "Plain Steamed Rice",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1350",
+    "name": "Plum (Aloo Bukhara)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Damson_plum_fruit.jpg",
+    "image_source": "Wikimedia Commons via Openverse (plum ★)",
+    "is_active": true
+  },
+  {
+    "id": "653",
+    "name": "Plum Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/New_Park_Plum_Juice_%E5%85%AC%E5%9C%92%E8%99%9F%E9%85%B8%E6%A2%85%E6%B9%AF_-_panoramio.jpg",
+    "image_source": "Wikimedia Commons via Openverse (New Park Plum Juice 公園號酸梅湯 - panoramio ★)",
+    "is_active": true
+  },
+  {
+    "id": "1496",
+    "name": "Poha (Flattened Rice)",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1458",
+    "name": "Pomegranate",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pomegranate fruit - whole and piece with arils ★)",
+    "is_active": true
+  },
+  {
+    "id": "1285",
+    "name": "Pomegranate (Anar)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Pomegranate fruit - whole and piece with arils ★)",
+    "is_active": true
+  },
+  {
+    "id": "787",
+    "name": "Pomegranate Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pomegranate_Juice_%282019%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Pomegranate Juice 2019 ★)",
+    "is_active": true
+  },
+  {
+    "id": "694",
+    "name": "Port Grand Drinks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Port_Boca_Grande_Lighthouse_%2816753186877%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Port Boca Grande Lighthouse 16753186877 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1134",
+    "name": "Port Grand Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Port Boca Grande Lighthouse 16753186877 ★)",
+    "is_active": true
+  },
+  {
+    "id": "119",
+    "name": "Potato",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Potato_Pakora_and_Beguni.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Potato Pakora and Beguni ★)",
+    "is_active": true
+  },
+  {
+    "id": "95",
+    "name": "Potatoes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bread_Pakora_%28Stuffed_with_Mashed-Spicy_Potatoes%29.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Bread Pakora Stuffed with Mashed-Spicy Potatoes ★)",
+    "is_active": true
+  },
+  {
+    "id": "186",
+    "name": "Prawn Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Picture_of_tasty_Prawn_pulao.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Picture of tasty Prawn pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "244",
+    "name": "Pulao / Pilaf",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "138",
+    "name": "Pumpkin",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Smashing_Pumpkins_den_Atelier%2CLuxembourg.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Smashing Pumpkins den Atelier,Luxembourg)",
+    "is_active": true
+  },
+  {
+    "id": "997",
+    "name": "Puri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bhel_puri_chat%2C_photographed_in_West_Bengal%2C_India%2C_September_24%2C_2024.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Bhel puri chat, photographed in West Bengal, India, September 24, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "999",
+    "name": "Pyaaz Kachori",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aloo_Pyaaz_Kachori.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Aloo Pyaaz Kachori.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1229",
+    "name": "Pyaz Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "839",
+    "name": "Pyaz Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "718",
+    "name": "Qissa Khwani Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "551",
+    "name": "Qissa Khwani Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "920",
+    "name": "Qissa Khwani Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1167",
+    "name": "Qissa Khwani Snacks",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Peshawari_Chapli_Kabab_by_Chef_Nina.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Peshawari chapli kabab)",
+    "is_active": true
+  },
+  {
+    "id": "1401",
+    "name": "Quetta Almond",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Home-made almond milk, November 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1397",
+    "name": "Quetta Apple",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chrisdesign Photorealistic Green Apple ★)",
+    "is_active": true
+  },
+  {
+    "id": "1400",
+    "name": "Quetta Apricot",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "739",
+    "name": "Quetta Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginger Tea Adrak wali Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "1398",
+    "name": "Quetta Cherry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (cherry ★)",
+    "is_active": true
+  },
+  {
+    "id": "354",
+    "name": "Quetta Chicken Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "1399",
+    "name": "Quetta Grape",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (grape ★)",
+    "is_active": true
+  },
+  {
+    "id": "552",
+    "name": "Quetta Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "1192",
+    "name": "Quetta Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "720",
+    "name": "Quetta Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "924",
+    "name": "Quetta Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1194",
+    "name": "Quetta Pakora",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo Pakora ★)",
+    "is_active": true
+  },
+  {
+    "id": "217",
+    "name": "Quetta Pulao",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "1189",
+    "name": "Quetta Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "1191",
+    "name": "Quetta Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1190",
+    "name": "Quetta Seekh Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "564",
+    "name": "Quetta Sohan Halwa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sohan Halwa at Ghantewala in Chandni Chowk, Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1402",
+    "name": "Quetta Walnut",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Walnut ★)",
+    "is_active": true
+  },
+  {
+    "id": "1290",
+    "name": "Quince (Bihī)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Quince.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Quince ★)",
+    "is_active": true
+  },
+  {
+    "id": "806",
+    "name": "Rabri Doodh",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rabri Malpua ★)",
+    "is_active": true
+  },
+  {
+    "id": "664",
+    "name": "Rabri Falooda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Malai_kulfi_rabri_falooda.PNG",
+    "image_source": "Wikimedia Commons via Openverse (Malai kulfi rabri falooda ★)",
+    "is_active": true
+  },
+  {
+    "id": "132",
+    "name": "Radish",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Radish 3371103037 4ab07db0bf o ★)",
+    "is_active": true
+  },
+  {
+    "id": "1245",
+    "name": "Ragda Pattice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ragda_Pattice%28Patties%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ragda PatticePatties ★)",
+    "is_active": true
+  },
+  {
+    "id": "853",
+    "name": "Ragi Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Akki roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "1472",
+    "name": "Raisin",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sunmaid-Raisin-Pile.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sunmaid-Raisin-Pile)",
+    "is_active": true
+  },
+  {
+    "id": "587",
+    "name": "Ras Malai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tandoori_Missi_Roti_with_malai.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "588",
+    "name": "Rasgulla",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rasgullas_from_Odisha_and_Bengal.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Rasgullas from Odisha and Bengal)",
+    "is_active": true
+  },
+  {
+    "id": "84",
+    "name": "Raw Banana",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Banana_shake_at_the_Pyongyang_Hotel_Cafe_%281st_floor%29_%2810195085415%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Banana shake at the Pyongyang Hotel Cafe 1st floor 10195085415 ★)",
+    "is_active": true
+  },
+  {
+    "id": "269",
+    "name": "Reshmi Karahi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chicken_reshmi_kebabs.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chicken reshmi kebabs ★)",
+    "is_active": true
+  },
+  {
+    "id": "1251",
+    "name": "Reshmi Kebab",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken reshmi kebabs ★)",
+    "is_active": true
+  },
+  {
+    "id": "425",
+    "name": "Reshmi Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken reshmi kebabs ★)",
+    "is_active": true
+  },
+  {
+    "id": "469",
+    "name": "Rewri",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gur_Rewari_%28a_kind_of_Gajak%29_from_Lucknow%2C_a_traditional_Indian_snack_made_with_Jaggery_and_crunchy_sesame_seeds_in_the_form_of_crispy_bars.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Gur rewari (jaggery-sesame sweet))",
+    "is_active": true
+  },
+  {
+    "id": "18",
+    "name": "Rice Kheer",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Non-veg platter during the First WikiSanjog Conference 2025 - plain rice, dal, rajma, fish with mustard, chicken curry, carrot and cucumber salad, pickle, green chili, papad, and kheer. 03 ★)",
+    "is_active": true
+  },
+  {
+    "id": "216",
+    "name": "Rice with Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rice and Daal with Allo-Pyaaz Ki Sabzi ★)",
+    "is_active": true
+  },
+  {
+    "id": "59",
+    "name": "Ridge Gourd",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ridge_gourd%28_beerakai_%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ridge gourd beerakai ★)",
+    "is_active": true
+  },
+  {
+    "id": "975",
+    "name": "Roghni Naan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Roghni_Naan.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Roghni Naan ★)",
+    "is_active": true
+  },
+  {
+    "id": "780",
+    "name": "Rooh Afza",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Rooh_Afza_%28Sharbat%29.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Rooh Afza Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "783",
+    "name": "Rooh Afza Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rooh Afza Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "782",
+    "name": "Rooh Afza Milk",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Rooh Afza Sharbat ★)",
+    "is_active": true
+  },
+  {
+    "id": "779",
+    "name": "Rose Lassi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Summer_Special_Rose_Lassi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Summer Special Rose Lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "362",
+    "name": "Rosh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Coat_of_arms_of_Rosh_HaAyin.svg",
+    "image_source": "Wikimedia Commons via Openverse (Coat of arms of Rosh HaAyin ★)",
+    "is_active": true
+  },
+  {
+    "id": "941",
+    "name": "Rosh Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Coat of arms of Rosh HaAyin ★)",
+    "is_active": true
+  },
+  {
+    "id": "11",
+    "name": "Roti",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Akki_roti.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Akki roti ★)",
+    "is_active": true
+  },
+  {
+    "id": "255",
+    "name": "Saag Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "1170",
+    "name": "Sajji",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "215",
+    "name": "Sajji Chawal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Chicken_sajji.jpg/640px-Chicken_sajji.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "940",
+    "name": "Sajji Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sajji ★)",
+    "is_active": true
+  },
+  {
+    "id": "777",
+    "name": "Salted Lassi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Salt lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1218",
+    "name": "Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1238",
+    "name": "Samosa Chaat",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Samosa_Chaat.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Samosa Chaat ★)",
+    "is_active": true
+  },
+  {
+    "id": "475",
+    "name": "Sandesh",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sandesh_Jjhingan_2019_AFC_AsianCup.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sandesh Jjhingan 2019 AFC AsianCup ★)",
+    "is_active": true
+  },
+  {
+    "id": "1464",
+    "name": "Sapodilla",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sapodilla Malay with seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "1293",
+    "name": "Sapodilla (Chiku)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sapodilla_Malay_with_seeds.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sapodilla Malay with seeds ★)",
+    "is_active": true
+  },
+  {
+    "id": "565",
+    "name": "Sarafi Mithai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Shankarpali sweets mithai Western India 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "843",
+    "name": "Sattu Paratha",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sattu_Paratha.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sattu Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "1006",
+    "name": "Sattu Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sattu Paratha ★)",
+    "is_active": true
+  },
+  {
+    "id": "409",
+    "name": "Seekh Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pakistani_gobi_aloo%2C_seekh_kebab%2C_and_beef_karahi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1256",
+    "name": "Seekh Paratha Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1259",
+    "name": "Seekh Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Pakistani gobi aloo, seekh kebab, and beef karahi ★)",
+    "is_active": true
+  },
+  {
+    "id": "167",
+    "name": "Sela Rice",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Khyma and Basmati rice ★)",
+    "is_active": true
+  },
+  {
+    "id": "1243",
+    "name": "Sev Puri",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bhel puri chat, photographed in West Bengal, India, September 24, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "605",
+    "name": "Seviyan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Seviyan-kheer-seviyan-payasam.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Seviyan-kheer-seviyan-payasam)",
+    "is_active": true
+  },
+  {
+    "id": "593",
+    "name": "Shahi Tukray",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Shahi_Tukray_%28Shahi_Tukda%29..JPG",
+    "image_source": "Wikimedia Commons via Openverse (Shahi Tukray Shahi Tukda. ★)",
+    "is_active": true
+  },
+  {
+    "id": "214",
+    "name": "Shahi Zarda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Shahi_Rice_Kheer.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Shahi Rice Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "301",
+    "name": "Shami Boti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (4th October 2012 Shami Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "171",
+    "name": "Shami Kabab Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (4th October 2012 Shami Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "410",
+    "name": "Shami Kebab",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/4th_October_2012_Shami_Kebab.jpg",
+    "image_source": "Wikimedia Commons via Openverse (4th October 2012 Shami Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "1262",
+    "name": "Shami Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (4th October 2012 Shami Kebab ★)",
+    "is_active": true
+  },
+  {
+    "id": "767",
+    "name": "Sheer Chai",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sheer Khurma ★)",
+    "is_active": true
+  },
+  {
+    "id": "604",
+    "name": "Sheer Khurma",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sheer_Khurma.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sheer Khurma ★)",
+    "is_active": true
+  },
+  {
+    "id": "1003",
+    "name": "Sheermal",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Sheermal_bread_made_in_Iran.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sheermal bread made in Iran ★)",
+    "is_active": true
+  },
+  {
+    "id": "331",
+    "name": "Shinwari Chicken",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Butter Chicken & Butter Naan - Home - Chandigarh - India - 0006 ★)",
+    "is_active": true
+  },
+  {
+    "id": "195",
+    "name": "Shir Khurma Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Sheer Khurma ★)",
+    "is_active": true
+  },
+  {
+    "id": "675",
+    "name": "Sindh Kheer Drink",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (kheer drink ★)",
+    "is_active": true
+  },
+  {
+    "id": "692",
+    "name": "Sindh Mango Lassi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Coffee_and_mango_lassi_at_restaurant_South_Asian_Street_Food.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Coffee and mango lassi at restaurant South Asian Street Food ★)",
+    "is_active": true
+  },
+  {
+    "id": "496",
+    "name": "Sindhi Barfi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (barfi ★)",
+    "is_active": true
+  },
+  {
+    "id": "175",
+    "name": "Sindhi Beef Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Famous beef biryani of kolkata ★)",
+    "is_active": true
+  },
+  {
+    "id": "172",
+    "name": "Sindhi Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Achari Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "173",
+    "name": "Sindhi Chicken Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "303",
+    "name": "Sindhi Chicken Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Karahi in Pakistan ★)",
+    "is_active": true
+  },
+  {
+    "id": "500",
+    "name": "Sindhi Doodh Pak",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chahao_kheer.jpg",
+    "image_source": "Wikimedia Commons via Openverse (doodh ★)",
+    "is_active": true
+  },
+  {
+    "id": "495",
+    "name": "Sindhi Firni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (This is a picture of Indian rice pudding or firni which has been set in a shallow earthen dish.Strands of saffron and chopped almonds and pistachios have been used for garnishing ★)",
+    "is_active": true
+  },
+  {
+    "id": "498",
+    "name": "Sindhi Gulab Jamun",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Gulab Jamun ★)",
+    "is_active": true
+  },
+  {
+    "id": "493",
+    "name": "Sindhi Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Singhara_atta_Halwa.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Singhara atta Halwa ★)",
+    "is_active": true
+  },
+  {
+    "id": "492",
+    "name": "Sindhi Jalebi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (jalebi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1087",
+    "name": "Sindhi Kachori",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Urad Dal ki Kachori while making.JPG ★)",
+    "is_active": true
+  },
+  {
+    "id": "899",
+    "name": "Sindhi Karel",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Haagalakaayi_%28Kannada-_%E0%B2%B9%E0%B2%BE%E0%B2%97%E0%B2%B2%E0%B2%95%E0%B2%BE%E0%B2%AF%E0%B2%BF%29_%286781775067%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Haagalakaayi (Kannada- ಹಾಗಲಕಾಯಿ) (6781775067))",
+    "is_active": true
+  },
+  {
+    "id": "494",
+    "name": "Sindhi Kheer",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kheer ★)",
+    "is_active": true
+  },
+  {
+    "id": "898",
+    "name": "Sindhi Koki",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Lachha-paratha.jpg",
+    "image_source": "Wikimedia Commons via Openverse (koki ★)",
+    "is_active": true
+  },
+  {
+    "id": "497",
+    "name": "Sindhi Laddu",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Besan laddu in West Bengal, India, photographed on May 9, 2024 ★)",
+    "is_active": true
+  },
+  {
+    "id": "174",
+    "name": "Sindhi Mutton Biryani",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Awadhi mutton biryani ★)",
+    "is_active": true
+  },
+  {
+    "id": "310",
+    "name": "Sindhi Mutton Karahi",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Mutton Karahi 2 ★)",
+    "is_active": true
+  },
+  {
+    "id": "870",
+    "name": "Sindhi Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Amritsari Aloo Naan Thali.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "73",
+    "name": "Sindhi Okra",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hong_Kong_Okra_Aug_25_2012.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Hong Kong Okra Aug 25 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "879",
+    "name": "Sindhi Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "499",
+    "name": "Sindhi Pedu",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Indian_Sweet_Dessert_Peda_in_a_glass_plate.jpg",
+    "image_source": "Wikimedia Commons via Openverse (pedu ★)",
+    "is_active": true
+  },
+  {
+    "id": "501",
+    "name": "Sindhi Phirni",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Firni Or Phirni Bangladeshi Sweet 1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "176",
+    "name": "Sindhi Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mutton_pulao.jpg",
+    "image_source": "Wikimedia Commons via Openverse (pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "1083",
+    "name": "Sindhi Samosa",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Aloo samosa - Sri Sai tiffin centre, Gulmohar Park Colony, Serilingampalle - Hyderabad - DSC 0018 ★)",
+    "is_active": true
+  },
+  {
+    "id": "192",
+    "name": "Sindhi Seero",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sooji_Halwa_%28Rava_Sheera%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (seero ★)",
+    "is_active": true
+  },
+  {
+    "id": "188",
+    "name": "Sindhi Tahari",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (tahari ★)",
+    "is_active": true
+  },
+  {
+    "id": "1217",
+    "name": "Snack",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Azerbaijan Light snack ★)",
+    "is_active": true
+  },
+  {
+    "id": "80",
+    "name": "Snake Gourd",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Thichosanthes_cucumerina%2C_the_snake_gourds%2C_variable_fruit_shapes_and_colors_as_seen_in_cultivation.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Thichosanthes cucumerina, the snake gourds, variable fruit shapes and colors as seen in cultivation ★)",
+    "is_active": true
+  },
+  {
+    "id": "601",
+    "name": "Sohan Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sohan_Halwa_at_Ghantewala_in_Chandni_Chowk%2C_Delhi.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sohan Halwa at Ghantewala in Chandni Chowk, Delhi ★)",
+    "is_active": true
+  },
+  {
+    "id": "441",
+    "name": "Sohan Papdi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Soan_sohan_papdi_India_Festive_Sweets.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Soan sohan papdi India Festive Sweets.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "127",
+    "name": "Spinach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spinach_produce-1.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Spinach produce-1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "78",
+    "name": "Sponge Gourd",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/2008.09-331-196ap_Sponge_gourd%2Cpd_Spice_Bazaar%40Istanbul%2CTR_mon29sep2008-1315h.jpg",
+    "image_source": "Wikimedia Commons via Openverse (2008.09-331-196ap Sponge gourd,pd Spice Bazaar@Istanbul,TR mon29sep2008-1315h ★)",
+    "is_active": true
+  },
+  {
+    "id": "801",
+    "name": "Strawberry Shake",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Strawberry_lemon_shake-up_sign_-_Indiana_State_Fair.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Strawberry lemon shake-up sign - Indiana State Fair ★)",
+    "is_active": true
+  },
+  {
+    "id": "784",
+    "name": "Sugarcane Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Shreyans%2C_the_king_of_Hastinapur_offering_Sugarcane_juice_to_Lord_Rishabhdev.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Shreyans, the king of Hastinapur offering Sugarcane juice to Lord Rishabhdev ★)",
+    "is_active": true
+  },
+  {
+    "id": "19",
+    "name": "Suji Halwa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Suji_halwa_garnished_with_crushed_almonds.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Suji halwa garnished with crushed almonds ★)",
+    "is_active": true
+  },
+  {
+    "id": "1491",
+    "name": "Suji ka Halwa",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1366",
+    "name": "Swat Almond",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Home-made almond milk, November 2012 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1364",
+    "name": "Swat Apple",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chrisdesign Photorealistic Green Apple ★)",
+    "is_active": true
+  },
+  {
+    "id": "1365",
+    "name": "Swat Apricot",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (20070107 Apricot ★)",
+    "is_active": true
+  },
+  {
+    "id": "1363",
+    "name": "Swat Cherry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Open faced tuna sandwich with cherry tomato and guacamole spread ★)",
+    "is_active": true
+  },
+  {
+    "id": "1368",
+    "name": "Swat Grape",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Glass of grape juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "1369",
+    "name": "Swat Peach",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (File:Karlie in Peach - Paris Haute Couture Spring-Summer 2012.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "1370",
+    "name": "Swat Plum",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (plum ★)",
+    "is_active": true
+  },
+  {
+    "id": "1367",
+    "name": "Swat Walnut",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Walnut ★)",
+    "is_active": true
+  },
+  {
+    "id": "1265",
+    "name": "Sweet Corn",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginataang mais Sweet corn rice porridge, Philippines ★)",
+    "is_active": true
+  },
+  {
+    "id": "16",
+    "name": "Sweet Lassi",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sweet_Lassi.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Sweet Lassi ★)",
+    "is_active": true
+  },
+  {
+    "id": "1455",
+    "name": "Sweet Lime",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Citrus limettioides - Palestine sweet lime ★)",
+    "is_active": true
+  },
+  {
+    "id": "1282",
+    "name": "Sweet Lime (Mousambi)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Citrus limettioides - Palestine sweet lime ★)",
+    "is_active": true
+  },
+  {
+    "id": "855",
+    "name": "Sweet Paratha",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tapenade and green olives on aloo gobi paratha - Massachusetts ★)",
+    "is_active": true
+  },
+  {
+    "id": "64",
+    "name": "Sweet Potato",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sweet_potato_ceratocystis.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Sweet potato ceratocystis ★)",
+    "is_active": true
+  },
+  {
+    "id": "258",
+    "name": "Sweet Rice",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Ginataang mais Sweet corn rice porridge, Philippines ★)",
+    "is_active": true
+  },
+  {
+    "id": "161",
+    "name": "Sweet Rice (Meethe Chawal)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ginataang_mais_%28Sweet_corn_rice_porridge%2C_Philippines%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Ginataang mais Sweet corn rice porridge, Philippines ★)",
+    "is_active": true
+  },
+  {
+    "id": "1025",
+    "name": "Sweet Samosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sweet_Samosa_-_Bainan_-_Howrah_2015-04-14_7908.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Sweet Samosa - Bainan - Howrah 2015-04-14 7908 ★)",
+    "is_active": true
+  },
+  {
+    "id": "391",
+    "name": "Tabak Maaz",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Tabak_Maaz_Kashmiri.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tabak Maaz Kashmiri ★)",
+    "is_active": true
+  },
+  {
+    "id": "1005",
+    "name": "Taftan",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Taftan_nan_01.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Taftan nan 01 ★)",
+    "is_active": true
+  },
+  {
+    "id": "259",
+    "name": "Tahari",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (tahari ★)",
+    "is_active": true
+  },
+  {
+    "id": "1465",
+    "name": "Tamarind",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tamarind fruits Tamarindus indica 'Si Thong' ★)",
+    "is_active": true
+  },
+  {
+    "id": "1294",
+    "name": "Tamarind (Imli)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tamarind_fruits_%28Tamarindus_indica_%27Si_Thong%27%29.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tamarind fruits Tamarindus indica 'Si Thong' ★)",
+    "is_active": true
+  },
+  {
+    "id": "1062",
+    "name": "Tandoori Chicken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Marinated_Tandoori_Chicken_pieces.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Marinated Tandoori Chicken pieces ★)",
+    "is_active": true
+  },
+  {
+    "id": "990",
+    "name": "Tandoori Roti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tandoori Missi Roti with malai ★)",
+    "is_active": true
+  },
+  {
+    "id": "270",
+    "name": "Tawa Chicken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tawa_Chicken.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Tawa Chicken ★)",
+    "is_active": true
+  },
+  {
+    "id": "423",
+    "name": "Tawa Fry",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Tawa Chicken ★)",
+    "is_active": true
+  },
+  {
+    "id": "144",
+    "name": "Tawa Pulao",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tawa_pulao_and_boondi_raita.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "Wikimedia Commons via Openverse (Tawa pulao and boondi raita ★)",
+    "is_active": true
+  },
+  {
+    "id": "811",
+    "name": "Thandai",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Thandai_Drink.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Thandai Drink ★)",
+    "is_active": true
+  },
+  {
+    "id": "1249",
+    "name": "Tikka Boti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "271",
+    "name": "Tikka Masala Chicken",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chicken_tikka_masala.jpg",
+    "image_source": "Wikimedia Commons via Openverse (File:Chicken tikka masala.jpg ★)",
+    "is_active": true
+  },
+  {
+    "id": "921",
+    "name": "Tikka Naan",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "1063",
+    "name": "Tikka Platter",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "1261",
+    "name": "Tikka Roll",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Chicken Tikka ★)",
+    "is_active": true
+  },
+  {
+    "id": "470",
+    "name": "Til Patti",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Doodh Patti Chai ★)",
+    "is_active": true
+  },
+  {
+    "id": "60",
+    "name": "Tinda (Indian Squash)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tindas_2017_C1.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tindas 2017 C1)",
+    "is_active": true
+  },
+  {
+    "id": "177",
+    "name": "Tinday Chawal",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Saloonay Chawal With Aloo Gosht ★)",
+    "is_active": true
+  },
+  {
+    "id": "121",
+    "name": "Tomato",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Open faced tuna sandwich with cherry tomato and guacamole spread ★)",
+    "is_active": true
+  },
+  {
+    "id": "102",
+    "name": "Tomatoes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tomatoes_plain_and_sliced.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Tomatoes plain and sliced ★)",
+    "is_active": true
+  },
+  {
+    "id": "963",
+    "name": "Tsot / Gyath",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tandoori_Roti_in_clay_oven.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Tandoori roti (Balti flatbread))",
+    "is_active": true
+  },
+  {
+    "id": "1404",
+    "name": "Turbat Banana",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (banana ★)",
+    "is_active": true
+  },
+  {
+    "id": "1405",
+    "name": "Turbat Mango",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Birthday party thali - Pulao, chana dal, pork with potato curry, pork stir-fried with lai sak mustard greens and onion, crispy potato fries, brinjal dipped in besan batter fry, green chutney, and mango achaar ★)",
+    "is_active": true
+  },
+  {
+    "id": "133",
+    "name": "Turnip",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Turnip_2622027.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Turnip 2622027 ★)",
+    "is_active": true
+  },
+  {
+    "id": "91",
+    "name": "Turnip Greens",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Turnip_Greens-1.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Turnip Greens-1 ★)",
+    "is_active": true
+  },
+  {
+    "id": "103",
+    "name": "Turnips",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Stubble_Turnips_near_the_River_Medway_-_geograph.org.uk_-_1691035.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Stubble Turnips near the River Medway - geograph.org.uk - 1691035 ★)",
+    "is_active": true
+  },
+  {
+    "id": "1486",
+    "name": "Vanilla Custard",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1484",
+    "name": "Vegetable Pakora",
+    "image_url": null,
+    "image_source": null,
+    "is_active": true
+  },
+  {
+    "id": "1470",
+    "name": "Walnut",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Walnut ★)",
+    "is_active": true
+  },
+  {
+    "id": "1352",
+    "name": "Walnut (Akhrot)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Walnut.svg",
+    "image_source": "Wikimedia Commons via Openverse (Walnut ★)",
+    "is_active": true
+  },
+  {
+    "id": "1441",
+    "name": "Watermelon",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Watermelon Juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "1267",
+    "name": "Watermelon (Tarbooz)",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Watermelon Juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "788",
+    "name": "Watermelon Juice",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Watermelon_Juice.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Watermelon Juice ★)",
+    "is_active": true
+  },
+  {
+    "id": "965",
+    "name": "Wazwan Bread",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Bread and wine ★)",
+    "is_active": true
+  },
+  {
+    "id": "581",
+    "name": "Wazwan Desserts",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Phirni_at_Cool_Point%2C_Chandni_Chawk.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Phirni)",
+    "is_active": true
+  },
+  {
+    "id": "761",
+    "name": "Wazwan Drinks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Kashmiri kahwa)",
+    "is_active": true
+  },
+  {
+    "id": "383",
+    "name": "Wazwan Meat Dishes",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cholistani_Camel_Meat_Pulao.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Cholistani Camel Meat Pulao ★)",
+    "is_active": true
+  },
+  {
+    "id": "1213",
+    "name": "Wazwan Snacks",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Mutton seekh kebab grilling)",
+    "is_active": true
+  },
+  {
+    "id": "99",
+    "name": "Wild Garlic",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Wild_Garlic_Yarg.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Wild Garlic Yarg ★)",
+    "is_active": true
+  },
+  {
+    "id": "114",
+    "name": "Wild Greens",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%22Whispers_of_the_Wild_Greens%22.jpg",
+    "image_source": "Wikimedia Commons via Openverse ('Whispers of the Wild Greens' ★)",
+    "is_active": true
+  },
+  {
+    "id": "109",
+    "name": "Wild Okra",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Wild okra ★)",
+    "is_active": true
+  },
+  {
+    "id": "97",
+    "name": "Wild Spinach",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Chenopodium_albium_%28wild_spinach%29%2C_wild_field%2C_Warsaw%2C_Poland.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Chenopodium albium wild spinach, wild field, Warsaw, Poland ★)",
+    "is_active": true
+  },
+  {
+    "id": "1467",
+    "name": "Wood Apple",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Wood apples ★)",
+    "is_active": true
+  },
+  {
+    "id": "1296",
+    "name": "Wood Apple (Bel)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Wood_apples.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Wood apples ★)",
+    "is_active": true
+  },
+  {
+    "id": "65",
+    "name": "Yam",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Coat_of_arms_of_Bat-Yam.svg",
+    "image_source": "Wikimedia Commons via Openverse (Coat of arms of Bat-Yam)",
+    "is_active": true
+  },
+  {
+    "id": "79",
+    "name": "Yardlong Beans",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Beetle_on_flower_of_Yardlong_Bean.jpg",
+    "image_source": "Wikimedia Commons via Openverse (Beetle on flower of Yardlong Bean ★)",
+    "is_active": true
+  },
+  {
+    "id": "257",
+    "name": "Zarda",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Coloured_Zarda_Chawal.JPG",
+    "image_source": "Wikimedia Commons via Openverse (Coloured Zarda Chawal ★)",
+    "is_active": true
+  },
+  {
+    "id": "251",
+    "name": "Zeera Rice",
+    "image_url": null,
+    "image_source": "Wikimedia Commons via Openverse (Khyma and Basmati rice ★)",
+    "is_active": true
+  }
+]

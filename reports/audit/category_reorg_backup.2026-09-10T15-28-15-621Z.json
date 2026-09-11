@@ -1,0 +1,1004 @@
+{
+  "backedUpAt": "2026-09-10T15:28:16.428Z",
+  "categories": [
+    {
+      "id": "1",
+      "name": "Rice",
+      "slug": "rice"
+    },
+    {
+      "id": "6",
+      "name": "Fruits",
+      "slug": "fruits"
+    },
+    {
+      "id": "7",
+      "name": "Drinks",
+      "slug": "drinks"
+    },
+    {
+      "id": "26",
+      "name": "Curries",
+      "slug": "curries"
+    },
+    {
+      "id": "30",
+      "name": "Snacks",
+      "slug": "snacks"
+    }
+  ],
+  "foods": [
+    {
+      "id": "11",
+      "name": "Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "12",
+      "name": "Plain Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "18",
+      "name": "Rice Kheer",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "19",
+      "name": "Suji Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "21",
+      "name": "Halwa Puri",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "161",
+      "name": "Sweet Rice (Meethe Chawal)",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "162",
+      "name": "Gajrela",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "163",
+      "name": "Kheer",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "164",
+      "name": "Firni",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "192",
+      "name": "Seero",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "193",
+      "name": "Meethe Chawal",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "195",
+      "name": "Shir Khurma Chawal",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "214",
+      "name": "Shahi Zarda",
+      "category_slug": "rice",
+      "is_active": true
+    },
+    {
+      "id": "257",
+      "name": "Zarda",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "258",
+      "name": "Sweet Rice",
+      "category_slug": "rice",
+      "is_active": false
+    },
+    {
+      "id": "432",
+      "name": "Laddu",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "437",
+      "name": "Phirni",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "438",
+      "name": "Firni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "441",
+      "name": "Sohan Papdi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "448",
+      "name": "Doodh Jalebi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "454",
+      "name": "Kesar Kulfi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "463",
+      "name": "Halwa Puri",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "464",
+      "name": "Gajar Ka Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "465",
+      "name": "Aloo Bukhara Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "466",
+      "name": "Imli Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "480",
+      "name": "Khaja",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "486",
+      "name": "Lahori Falooda",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "487",
+      "name": "Lahori Jalebi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "488",
+      "name": "Lahori Kulfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "491",
+      "name": "Fort Road Falooda",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "492",
+      "name": "Sindhi Jalebi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "493",
+      "name": "Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "494",
+      "name": "Sindhi Kheer",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "495",
+      "name": "Sindhi Firni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "496",
+      "name": "Sindhi Barfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "497",
+      "name": "Sindhi Laddu",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "498",
+      "name": "Sindhi Gulab Jamun",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "501",
+      "name": "Sindhi Phirni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "522",
+      "name": "Coconut Barfi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "523",
+      "name": "Besan Barfi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "526",
+      "name": "Anjeer Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "527",
+      "name": "Karachi Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "528",
+      "name": "Karachi Jalebi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "529",
+      "name": "Burns Road Falooda",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "530",
+      "name": "Bohri Kheer",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "531",
+      "name": "Memoni Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "532",
+      "name": "Peshawari Kulfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "533",
+      "name": "Peshawari Falooda",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "534",
+      "name": "Peshawari Jalebi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "535",
+      "name": "Peshawari Gulab Jamun",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "536",
+      "name": "Peshawari Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "549",
+      "name": "Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "550",
+      "name": "Charsi Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "551",
+      "name": "Qissa Khwani Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "552",
+      "name": "Quetta Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "554",
+      "name": "Balochi Jalebi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "555",
+      "name": "Balochi Kulfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "556",
+      "name": "Balochi Kheer",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "557",
+      "name": "Balochi Barfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "564",
+      "name": "Quetta Sohan Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "565",
+      "name": "Sarafi Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "566",
+      "name": "Jinnah Road Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "567",
+      "name": "Kashmiri Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "568",
+      "name": "Kashmiri Kulfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "569",
+      "name": "Kashmiri Kheer",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "570",
+      "name": "Kashmiri Firni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "582",
+      "name": "Kashmiri Phirni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "583",
+      "name": "Kashmiri Mithai",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "584",
+      "name": "Kheer",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "585",
+      "name": "Firni / Phirni",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "586",
+      "name": "Gulab Jamun",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "588",
+      "name": "Rasgulla",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "589",
+      "name": "Barfi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "591",
+      "name": "Kulfi",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "592",
+      "name": "Falooda",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "593",
+      "name": "Shahi Tukray",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "594",
+      "name": "Double Ka Meetha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "595",
+      "name": "Gajar Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "596",
+      "name": "Suji Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "597",
+      "name": "Moong Dal Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "598",
+      "name": "Atta Halwa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "599",
+      "name": "Besan Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "600",
+      "name": "Gur Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "601",
+      "name": "Sohan Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "602",
+      "name": "Zarda",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "603",
+      "name": "Meethe Chawal",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "604",
+      "name": "Sheer Khurma",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "606",
+      "name": "Khurma",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "607",
+      "name": "Jalebi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "609",
+      "name": "Balushahi",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "612",
+      "name": "Motichoor Laddu",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "613",
+      "name": "Besan Laddu",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "614",
+      "name": "Boondi Laddu",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "615",
+      "name": "Coconut Laddu",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "817",
+      "name": "Aloo Kulcha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "827",
+      "name": "Dalhi Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "838",
+      "name": "Palak Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "839",
+      "name": "Pyaz Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "841",
+      "name": "Malabar Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "843",
+      "name": "Sattu Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "844",
+      "name": "Mixed Veg Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "849",
+      "name": "Besan Roti",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "852",
+      "name": "Jowar Roti",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "853",
+      "name": "Ragi Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "854",
+      "name": "Akki Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "855",
+      "name": "Sweet Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "862",
+      "name": "Lahori Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "863",
+      "name": "Lahori Kulcha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "866",
+      "name": "Lahori Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "867",
+      "name": "Lahori Missi Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "868",
+      "name": "Food Street Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "870",
+      "name": "Sindhi Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "879",
+      "name": "Sindhi Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "893",
+      "name": "Karachi Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "894",
+      "name": "Burns Road Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "896",
+      "name": "Karachi Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "901",
+      "name": "Peshawari Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "907",
+      "name": "Peshawari Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "920",
+      "name": "Qissa Khwani Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "921",
+      "name": "Tikka Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "923",
+      "name": "Balochi Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "924",
+      "name": "Quetta Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "930",
+      "name": "Balochi Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "940",
+      "name": "Sajji Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "941",
+      "name": "Rosh Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "942",
+      "name": "Jinnah Road Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "944",
+      "name": "Kashmiri Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "949",
+      "name": "Kashmiri Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "964",
+      "name": "Dry Fruit Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "965",
+      "name": "Wazwan Bread",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "966",
+      "name": "Bread",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "967",
+      "name": "Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "968",
+      "name": "Garlic Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "969",
+      "name": "Butter Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "970",
+      "name": "Keema Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "971",
+      "name": "Aloo Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "972",
+      "name": "Paneer Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "973",
+      "name": "Cheese Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "974",
+      "name": "Peshwari Naan",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "975",
+      "name": "Roghni Naan",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "976",
+      "name": "Kulcha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "977",
+      "name": "Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "979",
+      "name": "Aloo Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "980",
+      "name": "Gobi Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "981",
+      "name": "Mooli Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "982",
+      "name": "Paneer Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "983",
+      "name": "Keema Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "984",
+      "name": "Methi Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "985",
+      "name": "Lachha Paratha",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "986",
+      "name": "Mughlai Paratha",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "988",
+      "name": "Chapati",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "989",
+      "name": "Phulka",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "990",
+      "name": "Tandoori Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "991",
+      "name": "Khamiri Roti",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "992",
+      "name": "Missi Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "993",
+      "name": "Makki Ki Roti",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "994",
+      "name": "Bajra Ki Roti",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "995",
+      "name": "Dosti Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "1003",
+      "name": "Sheermal",
+      "category_slug": "snacks",
+      "is_active": true
+    },
+    {
+      "id": "1006",
+      "name": "Sattu Roti",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "1025",
+      "name": "Sweet Samosa",
+      "category_slug": "snacks",
+      "is_active": false
+    },
+    {
+      "id": "1491",
+      "name": "Suji Ka Halwa",
+      "category_slug": "snacks",
+      "is_active": true
+    }
+  ]
+}
