@@ -4,7 +4,7 @@ import env from "../config/env.js";
 export const generateAccessToken = (user) => {
   return jwt.sign(
     {
-      userId: user.id,
+      userId: user.id.toString(),
       role: user.role,
     },
     env.jwtSecret,

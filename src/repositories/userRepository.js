@@ -1,64 +1,56 @@
-import { query } from "../config/database.js";
+import prisma from "../config/prisma.js";
 
-const getDb = (client) => client || { query };
-
-export const findUserByEmail = async (email, client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `SELECT
-       id,
-       name,
-       email,
-       password_hash,
-       role,
-       created_at,
-       updated_at
-     FROM users
-     WHERE email = $1`,
-    [email]
-  );
-
-  return result.rows[0] || null;
+export const findUserByEmail = async (email) => {
+  return prisma.users.findUnique({
+    where: {
+      email,
+    },
+    select: {
+      id: true,
+      name: true,
+      email: true,
+      password_hash: true,
+      role: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };
 
-export const createUser = async (
-  { name, email, passwordHash },
-  client
-) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `INSERT INTO users (name, email, password_hash)
-     VALUES ($1, $2, $3)
-     RETURNING
-       id,
-       name,
-       email,
-       role,
-       created_at,
-       updated_at`,
-    [name, email, passwordHash]
-  );
-
-  return result.rows[0];
+export const createUser = async ({
+  name,
+  email,
+  passwordHash,
+}) => {
+  return prisma.users.create({
+    data: {
+      name,
+      email,
+      password_hash: passwordHash,
+    },
+    select: {
+      id: true,
+      name: true,
+      email: true,
+      role: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };
 
-export const findUserById = async (id, client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `SELECT
-       id,
-       name,
-       email,
-       role,
-       created_at,
-       updated_at
-     FROM users
-     WHERE id = $1`,
-    [id]
-  );
-
-  return result.rows[0] || null;
+export const findUserById = async (id) => {
+  return prisma.users.findUnique({
+    where: {
+      id: BigInt(id),
+    },
+    select: {
+      id: true,
+      name: true,
+      email: true,
+      role: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };

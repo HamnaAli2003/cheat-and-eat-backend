@@ -41,7 +41,7 @@ export const updateUserGoal = async ({
     await insertGoalChange({
       userId,
       dailyCalorieGoal,
-      changedOn: new Date().toISOString().slice(0, 10),
+      changedOn: new Date(`${new Date().toISOString().slice(0, 10)}T00:00:00.000Z`),
     });
   }
 

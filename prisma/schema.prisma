@@ -1,0 +1,281 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model daily_tips {
+  id         BigInt   @id @default(autoincrement())
+  text       String
+  icon       String?  @db.VarChar(20)
+  sort_order Int      @default(0)
+  is_active  Boolean  @default(true)
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  updated_at DateTime @default(now()) @db.Timestamptz(6)
+}
+
+model food_categories {
+  id         BigInt   @id @default(autoincrement())
+  name       String   @unique @db.VarChar(100)
+  slug       String   @unique @db.VarChar(100)
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  foods      foods[]
+}
+
+model food_metadata {
+  food_id        BigInt   @id
+  cooking_method String?  @db.VarChar(100)
+  ingredients    Json?
+  tags           Json     @default("[]")
+  notes          String?
+  created_at     DateTime @default(now()) @db.Timestamptz(6)
+  updated_at     DateTime @default(now()) @db.Timestamptz(6)
+  foods          foods    @relation(fields: [food_id], references: [id], onDelete: Cascade)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model food_option_values {
+  id             BigInt       @id @default(autoincrement())
+  option_id      BigInt
+  key            String       @db.VarChar(80)
+  label          String       @db.VarChar(100)
+  calories_delta Decimal      @default(0) @db.Decimal(8, 2)
+  protein_delta  Decimal      @default(0) @db.Decimal(8, 2)
+  carbs_delta    Decimal      @default(0) @db.Decimal(8, 2)
+  fat_delta      Decimal      @default(0) @db.Decimal(8, 2)
+  fiber_delta    Decimal      @default(0) @db.Decimal(8, 2)
+  amount         Decimal?     @db.Decimal(8, 2)
+  amount_unit    String?      @db.VarChar(10)
+  sort_order     Int          @default(0)
+  is_default     Boolean      @default(false)
+  created_at     DateTime     @default(now()) @db.Timestamptz(6)
+  food_options   food_options @relation(fields: [option_id], references: [id], onDelete: Cascade)
+
+  @@unique([option_id, key], map: "food_option_values_option_key_unique")
+  @@index([option_id], map: "idx_food_option_values_option_id")
+}
+
+model food_options {
+  id                 BigInt               @id @default(autoincrement())
+  food_id            BigInt
+  key                String               @db.VarChar(80)
+  label              String               @db.VarChar(100)
+  input_type         String               @db.VarChar(30)
+  is_required        Boolean              @default(false)
+  sort_order         Int                  @default(0)
+  created_at         DateTime             @default(now()) @db.Timestamptz(6)
+  food_option_values food_option_values[]
+  foods              foods                @relation(fields: [food_id], references: [id], onDelete: Cascade)
+
+  @@unique([food_id, key], map: "food_options_food_key_unique")
+  @@index([food_id], map: "idx_food_options_food_id")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model food_servings {
+  id              BigInt   @id @default(autoincrement())
+  food_id         BigInt
+  name            String   @db.VarChar(100)
+  unit            String   @db.VarChar(30)
+  amount          Decimal  @db.Decimal(8, 2)
+  amount_unit     String   @db.VarChar(10)
+  sort_order      Int      @default(0)
+  is_default      Boolean  @default(false)
+  created_at      DateTime @default(now()) @db.Timestamptz(6)
+  edible_weight_g Decimal? @db.Decimal(8, 2)
+  per_unit_g      Decimal? @db.Decimal(8, 2)
+  foods           foods    @relation(fields: [food_id], references: [id], onDelete: Cascade)
+
+  @@unique([food_id, name], map: "food_servings_food_name_unique")
+  @@index([food_id], map: "idx_food_servings_food_id")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model foods {
+  id                 BigInt               @id @default(autoincrement())
+  category_id        BigInt
+  name               String               @db.VarChar(150)
+  slug               String               @unique @db.VarChar(180)
+  description        String?
+  image_url          String?
+  base_calories      Decimal              @default(0) @db.Decimal(8, 2)
+  base_protein       Decimal              @default(0) @db.Decimal(8, 2)
+  base_carbs         Decimal              @default(0) @db.Decimal(8, 2)
+  base_fat           Decimal              @default(0) @db.Decimal(8, 2)
+  base_fiber         Decimal              @default(0) @db.Decimal(8, 2)
+  is_active          Boolean              @default(true)
+  created_at         DateTime             @default(now()) @db.Timestamptz(6)
+  updated_at         DateTime             @default(now()) @db.Timestamptz(6)
+  urdu_name          String?              @db.VarChar(200)
+  region             String?              @db.VarChar(100)
+  subcategory        String?              @db.VarChar(150)
+  image_source       String?
+  nutrition_basis    String?
+  serving_g          Decimal?             @db.Decimal(8, 2)
+  serving_label      String?              @db.VarChar(200)
+  oil_g              Decimal              @default(0) @db.Decimal(8, 2)
+  oil_kcal           Decimal              @default(0) @db.Decimal(8, 2)
+  meat_grams         Decimal?             @db.Decimal(8, 2)
+  food_metadata      food_metadata?
+  food_options       food_options[]
+  food_servings      food_servings[]
+  food_categories    food_categories      @relation(fields: [category_id], references: [id])
+  meals              meals[]
+  recipe_ingredients recipe_ingredients[]
+  recipes            recipes?
+
+  @@index([category_id], map: "idx_foods_category_id")
+  @@index([is_active], map: "idx_foods_is_active")
+  @@index([name], map: "idx_foods_name")
+  @@index([region], map: "idx_foods_region")
+  @@index([subcategory], map: "idx_foods_subcategory")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model goal_changes {
+  id                 BigInt   @id @default(autoincrement())
+  user_id            BigInt
+  daily_calorie_goal Int
+  changed_on         DateTime @db.Date
+  created_at         DateTime @default(now()) @db.Timestamptz(6)
+  users              users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([user_id, changed_on], map: "goal_changes_user_id_changed_on_index")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model goals {
+  id                  BigInt   @id @default(autoincrement())
+  user_id             BigInt   @unique
+  daily_calorie_goal  Int
+  weight_loss_goal_kg Decimal? @db.Decimal(6, 2)
+  weight_loss_months  Int?
+  created_at          DateTime @default(now()) @db.Timestamptz(6)
+  updated_at          DateTime @default(now()) @db.Timestamptz(6)
+  users               users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model health_formulas {
+  id          BigInt   @id @default(autoincrement())
+  key         String   @unique @db.VarChar(100)
+  name        String   @db.VarChar(200)
+  category    String   @db.VarChar(100)
+  description String?
+  formula     String?
+  params      Json     @default("[]")
+  constants   Json     @default("{}")
+  sort_order  Int      @default(0)
+  created_at  DateTime @default(now()) @db.Timestamptz(6)
+  updated_at  DateTime @default(now()) @db.Timestamptz(6)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model meals {
+  id         BigInt   @id @default(autoincrement())
+  user_id    BigInt
+  food_id    BigInt?
+  name       String   @db.VarChar(200)
+  image_url  String?
+  portion    String?  @db.VarChar(200)
+  meal_type  String   @db.VarChar(20)
+  calories   Decimal  @default(0) @db.Decimal(8, 2)
+  protein    Decimal  @default(0) @db.Decimal(8, 2)
+  carbs      Decimal  @default(0) @db.Decimal(8, 2)
+  fat        Decimal  @default(0) @db.Decimal(8, 2)
+  fiber      Decimal  @default(0) @db.Decimal(8, 2)
+  eaten_on   DateTime @db.Date
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  updated_at DateTime @default(now()) @db.Timestamptz(6)
+  foods      foods?   @relation(fields: [food_id], references: [id], onUpdate: NoAction)
+  users      users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@index([user_id, eaten_on, id], map: "meals_user_id_eaten_on_id_index")
+}
+
+model pgmigrations {
+  id     Int      @id @default(autoincrement())
+  name   String   @db.VarChar(255)
+  run_on DateTime @db.Timestamp(6)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model profiles {
+  id         BigInt   @id @default(autoincrement())
+  user_id    BigInt   @unique
+  age        Int
+  gender     String   @db.VarChar(20)
+  height_cm  Decimal  @db.Decimal(5, 2)
+  weight_kg  Decimal  @db.Decimal(6, 2)
+  activity   String   @db.VarChar(50)
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  updated_at DateTime @default(now()) @db.Timestamptz(6)
+  users      users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model recipe_ingredients {
+  id          BigInt   @id
+  recipe_id   BigInt
+  food_id     BigInt?
+  name        String   @db.VarChar(150)
+  quantity    Decimal  @db.Decimal(8, 2)
+  unit        String   @default("g") @db.VarChar(10)
+  per100      Json?
+  sort_order  Int      @default(0)
+  is_optional Boolean  @default(false)
+  created_at  DateTime @default(now()) @db.Timestamptz(6)
+  foods       foods?   @relation(fields: [food_id], references: [id])
+  recipes     recipes  @relation(fields: [recipe_id], references: [id], onDelete: Cascade)
+
+  @@index([recipe_id], map: "idx_recipe_ingredients_recipe_id")
+}
+
+model recipes {
+  id                 BigInt               @id
+  food_id            BigInt               @unique
+  name               String               @db.VarChar(150)
+  description        String?
+  default_servings   Decimal              @default(1) @db.Decimal(6, 2)
+  estimated          Boolean              @default(true)
+  is_active          Boolean              @default(true)
+  created_at         DateTime             @default(now()) @db.Timestamptz(6)
+  updated_at         DateTime             @default(now()) @db.Timestamptz(6)
+  recipe_ingredients recipe_ingredients[]
+  foods              foods                @relation(fields: [food_id], references: [id], onDelete: Cascade)
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model saved_days {
+  id         BigInt   @id @default(autoincrement())
+  user_id    BigInt
+  eaten_on   DateTime @db.Date
+  calories   Decimal  @default(0) @db.Decimal(8, 2)
+  protein    Decimal  @default(0) @db.Decimal(8, 2)
+  carbs      Decimal  @default(0) @db.Decimal(8, 2)
+  fat        Decimal  @default(0) @db.Decimal(8, 2)
+  fiber      Decimal  @default(0) @db.Decimal(8, 2)
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  updated_at DateTime @default(now()) @db.Timestamptz(6)
+  users      users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([user_id, eaten_on], map: "saved_days_unique_user_date")
+  @@index([user_id, eaten_on], map: "saved_days_user_id_eaten_on_index")
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model users {
+  id            BigInt         @id @default(autoincrement())
+  name          String         @db.VarChar(100)
+  email         String         @unique @db.VarChar(255)
+  password_hash String
+  role          String         @default("user") @db.VarChar(20)
+  created_at    DateTime       @default(now()) @db.Timestamptz(6)
+  updated_at    DateTime       @default(now()) @db.Timestamptz(6)
+  goal_changes  goal_changes[]
+  goals         goals?
+  meals         meals[]
+  profiles      profiles?
+  saved_days    saved_days[]
+}

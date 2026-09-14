@@ -1,4 +1,4 @@
-import { query } from "../config/database.js";
+import prisma from "../config/prisma.js";
 
 /*
  * ============================================================
@@ -7,49 +7,48 @@ import { query } from "../config/database.js";
  *
  * Database-only layer for health_formulas.
  *
- * Returns the stored formula definitions (mirrors the
- * frontend's src/utils/health.js) so consumers can compute
- * BMR/TDEE/BMI/goals from a single shared source.
+ * Returns the stored formula definitions so consumers can
+ * compute BMR/TDEE/BMI/goals from a single shared source.
  * ============================================================
  */
 
 export const findAllFormulas = async () => {
-  const result = await query(
-    `
-      SELECT
-        id,
-        key,
-        name,
-        category,
-        description,
-        formula,
-        params,
-        constants
-      FROM health_formulas
-      ORDER BY sort_order ASC, id ASC
-    `
-  );
-
-  return result.rows;
+  return prisma.health_formulas.findMany({
+    orderBy: [
+      {
+        sort_order: "asc",
+      },
+      {
+        id: "asc",
+      },
+    ],
+    select: {
+      id: true,
+      key: true,
+      name: true,
+      category: true,
+      description: true,
+      formula: true,
+      params: true,
+      constants: true,
+    },
+  });
 };
 
 export const findFormulaByKey = async (key) => {
-  const result = await query(
-    `
-      SELECT
-        id,
-        key,
-        name,
-        category,
-        description,
-        formula,
-        params,
-        constants
-      FROM health_formulas
-      WHERE key = $1
-    `,
-    [key]
-  );
-
-  return result.rows[0] || null;
+  return prisma.health_formulas.findUnique({
+    where: {
+      key,
+    },
+    select: {
+      id: true,
+      key: true,
+      name: true,
+      category: true,
+      description: true,
+      formula: true,
+      params: true,
+      constants: true,
+    },
+  });
 };

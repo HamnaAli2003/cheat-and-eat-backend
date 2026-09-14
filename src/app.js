@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import env from "./config/env.js";
 import authRoutes from "./routes/authRoutes.js";
 import { errorHandler } from "./middleware/errorHandler.js";
+import { bigIntSerializer } from "./middleware/bigIntSerializer.js";
 import onboardingRoutes from "./routes/onboardingRoutes.js";
 import profileRoutes from "./routes/profileRoutes.js";
 import goalRoutes from "./routes/goalRoutes.js";
@@ -22,6 +23,7 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
+app.use(bigIntSerializer);
 
 app.get("/api/health", (req, res) => {
   res.status(200).json({

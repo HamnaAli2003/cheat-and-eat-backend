@@ -1,26 +1,24 @@
-import { query } from "../config/database.js";
+import prisma from "../config/prisma.js";
 
-const getDb = (client) => client || { query };
-
-// Snapshot shape returned to the API. Numeric columns are cast to float so
-// node-pg does not hand back string decimals, and the date is cast to text so
-// the day value survives timezone shifts on the wire.
-const MEAL_COLUMNS = `
-  id,
-  user_id,
-  food_id,
-  name,
-  image_url,
-  portion,
-  meal_type,
-  calories::float AS calories,
-  protein::float AS protein,
-  carbs::float AS carbs,
-  fat::float AS fat,
-  fiber::float AS fiber,
-  eaten_on::text AS eaten_on,
-  created_at
-`;
+const mapMeal = (meal) => ({
+  id: meal.id.toString(),
+  user_id: meal.user_id.toString(),
+  food_id: meal.food_id ? meal.food_id.toString() : null,
+  name: meal.name,
+  image_url: meal.image_url,
+  portion: meal.portion,
+  meal_type: meal.meal_type,
+  calories: Number(meal.calories),
+  protein: Number(meal.protein),
+  carbs: Number(meal.carbs),
+  fat: Number(meal.fat),
+  fiber: Number(meal.fiber),
+  eaten_on:
+    meal.eaten_on instanceof Date
+      ? meal.eaten_on.toISOString().slice(0, 10)
+      : String(meal.eaten_on),
+  created_at: meal.created_at,
+});
 
 export const insertMeal = async (
   {
@@ -39,152 +37,208 @@ export const insertMeal = async (
   },
   client
 ) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `INSERT INTO meals (
-       user_id,
-       food_id,
-       name,
-       image_url,
-       portion,
-       meal_type,
-       calories,
-       protein,
-       carbs,
-       fat,
-       fiber,
-       eaten_on
-     )
-     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
-     RETURNING ${MEAL_COLUMNS}`,
-    [
-      userId,
-      foodId,
+  const meal = await prisma.meals.create({
+    data: {
+      user_id: BigInt(userId),
+      food_id: foodId !== null ? BigInt(foodId) : null,
       name,
-      imageUrl,
+      image_url: imageUrl,
       portion,
-      mealType,
+      meal_type: mealType,
       calories,
       protein,
       carbs,
       fat,
       fiber,
-      eatenOn,
-    ]
-  );
+      eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+    },
+  });
 
-  return result.rows[0];
+  return mapMeal(meal);
 };
 
 export const findMeals = async (
   { userId, date, from, to, limit = 48, offset = 0 },
   client
 ) => {
-  const db = getDb(client);
-
-  const conditions = ["user_id = $1"];
-  const params = [userId];
+  const where = {
+    user_id: BigInt(userId),
+  };
 
   if (date) {
-    params.push(date);
-    conditions.push(`eaten_on = $${params.length}`);
-  }
-  if (from) {
-    params.push(from);
-    conditions.push(`eaten_on >= $${params.length}`);
-  }
-  if (to) {
-    params.push(to);
-    conditions.push(`eaten_on <= $${params.length}`);
+    where.eaten_on = new Date(`${date}T00:00:00.000Z`);
+  } else {
+    if (from || to) {
+      where.eaten_on = {};
+
+      if (from) {
+        where.eaten_on.gte = new Date(
+          `${from}T00:00:00.000Z`
+        );
+      }
+
+      if (to) {
+        where.eaten_on.lte = new Date(
+          `${to}T00:00:00.000Z`
+        );
+      }
+    }
   }
 
-  params.push(limit, offset);
+  const meals = await prisma.meals.findMany({
+    where,
+    orderBy: [
+      {
+        eaten_on: "desc",
+      },
+      {
+        id: "desc",
+      },
+    ],
+    take: Number(limit),
+    skip: Number(offset),
+  });
 
-  const result = await db.query(
-    `SELECT ${MEAL_COLUMNS}
-     FROM meals
-     WHERE ${conditions.join(" AND ")}
-     ORDER BY eaten_on DESC, id DESC
-     LIMIT $${params.length - 1} OFFSET $${params.length}`,
-    params
-  );
-
-  return result.rows;
+  return meals.map(mapMeal);
 };
 
 export const deleteMealById = async ({ id, userId }, client) => {
-  const db = getDb(client);
+  const meal = await prisma.meals.deleteMany({
+    where: {
+      id: BigInt(id),
+      user_id: BigInt(userId),
+    },
+  });
 
-  const result = await db.query(
-    `DELETE FROM meals
-     WHERE id = $1 AND user_id = $2
-     RETURNING id`,
-    [id, userId]
-  );
+  if (meal.count === 0) {
+    return null;
+  }
 
-  return result.rows[0] || null;
+  return {
+    id: BigInt(id).toString(),
+  };
 };
 
 export const findMealById = async ({ id, userId }, client) => {
-  const db = getDb(client);
+  const meal = await prisma.meals.findFirst({
+    where: {
+      id: BigInt(id),
+      user_id: BigInt(userId),
+    },
+  });
 
-  const result = await db.query(
-    `SELECT ${MEAL_COLUMNS}
-     FROM meals
-     WHERE id = $1 AND user_id = $2`,
-    [id, userId]
-  );
-
-  return result.rows[0] || null;
+  return meal ? mapMeal(meal) : null;
 };
 
-export const deleteMealsByDate = async ({ userId, eatenOn }, client) => {
-  const db = getDb(client);
+export const deleteMealsByDate = async (
+  { userId, eatenOn },
+  client
+) => {
+  const meals = await prisma.meals.findMany({
+    where: {
+      user_id: BigInt(userId),
+      eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+    },
+    select: {
+      id: true,
+    },
+  });
 
-  const result = await db.query(
-    `DELETE FROM meals
-     WHERE user_id = $1 AND eaten_on = $2
-     RETURNING id`,
-    [userId, eatenOn]
-  );
+  if (meals.length === 0) {
+    return [];
+  }
 
-  return result.rows;
+  await prisma.meals.deleteMany({
+    where: {
+      user_id: BigInt(userId),
+      eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+    },
+  });
+
+  return meals.map((meal) => ({
+    id: meal.id.toString(),
+  }));
 };
 
-export const sumMealsByDate = async ({ userId, eatenOn }, client) => {
-  const db = getDb(client);
+export const sumMealsByDate = async (
+  { userId, eatenOn },
+  client
+) => {
+  const result = await prisma.meals.aggregate({
+    where: {
+      user_id: BigInt(userId),
+      eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+    },
+    _sum: {
+      calories: true,
+      protein: true,
+      carbs: true,
+      fat: true,
+      fiber: true,
+    },
+    _count: {
+      _all: true,
+    },
+  });
 
-  const result = await db.query(
-    `SELECT
-       COALESCE(SUM(calories)::float, 0) AS calories,
-       COALESCE(SUM(protein)::float, 0) AS protein,
-       COALESCE(SUM(carbs)::float, 0) AS carbs,
-       COALESCE(SUM(fat)::float, 0) AS fat,
-       COALESCE(SUM(fiber)::float, 0) AS fiber,
-       COUNT(*)::int AS meal_count
-     FROM meals
-     WHERE user_id = $1 AND eaten_on = $2`,
-    [userId, eatenOn]
-  );
-
-  return result.rows[0];
+  return {
+    calories: Number(result._sum.calories || 0),
+    protein: Number(result._sum.protein || 0),
+    carbs: Number(result._sum.carbs || 0),
+    fat: Number(result._sum.fat || 0),
+    fiber: Number(result._sum.fiber || 0),
+    meal_count: result._count._all,
+  };
 };
 
-export const findDailyMealAggregates = async ({ userId, from, to }, client) => {
-  const db = getDb(client);
+export const findDailyMealAggregates = async (
+  { userId, from, to },
+  client
+) => {
+  const meals = await prisma.meals.findMany({
+    where: {
+      user_id: BigInt(userId),
+      eaten_on: {
+        gte: new Date(`${from}T00:00:00.000Z`),
+        lte: new Date(`${to}T00:00:00.000Z`),
+      },
+    },
+    select: {
+      eaten_on: true,
+      calories: true,
+      created_at: true,
+    },
+    orderBy: {
+      created_at: "desc",
+    },
+  });
 
-  const result = await db.query(
-    `SELECT
-       eaten_on::text AS date_key,
-       COUNT(*)::int AS count,
-       COALESCE(SUM(calories)::float, 0) AS consumed,
-       MAX(created_at) AS last_at
-     FROM meals
-     WHERE user_id = $1 AND eaten_on BETWEEN $2 AND $3
-     GROUP BY eaten_on`,
-    [userId, from, to]
-  );
+  const aggregates = new Map();
 
-  return result.rows;
+  for (const meal of meals) {
+    const dateKey =
+      meal.eaten_on instanceof Date
+        ? meal.eaten_on.toISOString().slice(0, 10)
+        : String(meal.eaten_on);
+
+    if (!aggregates.has(dateKey)) {
+      aggregates.set(dateKey, {
+        date_key: dateKey,
+        count: 0,
+        consumed: 0,
+        last_at: meal.created_at,
+      });
+    }
+
+    const aggregate = aggregates.get(dateKey);
+
+    aggregate.count += 1;
+    aggregate.consumed += Number(meal.calories);
+
+    if (meal.created_at > aggregate.last_at) {
+      aggregate.last_at = meal.created_at;
+    }
+  }
+
+  return Array.from(aggregates.values());
 };

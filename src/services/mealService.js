@@ -9,6 +9,7 @@ import {
 import {
   upsertSavedDay,
   findSavedDays,
+  findSavedDayByDate,
 } from "../repositories/savedDayRepository.js";
 import { findGoalChangesUntil, findGoalByUserId } from "../repositories/goalRepository.js";
 import { findUserById } from "../repositories/userRepository.js";
@@ -88,7 +89,12 @@ export const getMealHistory = async ({ userId, days = 14 }) => {
   const goalFor = (dateKey) => {
     let g = currentGoal;
     for (const change of goalChanges) {
-      if (change.changed_on <= dateKey) {
+      const changeDate =
+        change.changed_on instanceof Date
+          ? change.changed_on.toISOString().slice(0, 10)
+          : String(change.changed_on);
+
+      if (changeDate <= dateKey) {
         g = Number(change.daily_calorie_goal);
       } else {
         break;

@@ -1,57 +1,62 @@
-import { query } from "../config/database.js";
+import prisma from "../config/prisma.js";
 
-const getDb = (client) => client || { query };
-
-export const findGoalByUserId = async (userId, client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `SELECT
-       id,
-       user_id,
-       daily_calorie_goal,
-       weight_loss_goal_kg,
-       weight_loss_months,
-       created_at,
-       updated_at
-     FROM goals
-     WHERE user_id = $1`,
-    [userId]
-  );
-
-return result.rows[0] || null;
+export const findGoalByUserId = async (userId) => {
+  return prisma.goals.findUnique({
+    where: {
+      user_id: BigInt(userId),
+    },
+    select: {
+      id: true,
+      user_id: true,
+      daily_calorie_goal: true,
+      weight_loss_goal_kg: true,
+      weight_loss_months: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };
 
-export const insertGoalChange = async (
-  { userId, dailyCalorieGoal, changedOn },
-  client
-) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `INSERT INTO goal_changes (user_id, daily_calorie_goal, changed_on)
-     VALUES ($1, $2, $3)
-     RETURNING id`,
-    [userId, dailyCalorieGoal, changedOn]
-  );
-
-  return result.rows[0] || null;
+export const insertGoalChange = async ({
+  userId,
+  dailyCalorieGoal,
+  changedOn,
+}) => {
+  return prisma.goal_changes.create({
+    data: {
+      user_id: BigInt(userId),
+      daily_calorie_goal: dailyCalorieGoal,
+      changed_on: changedOn,
+    },
+    select: {
+      id: true,
+    },
+  });
 };
 
-export const findGoalChangesUntil = async ({ userId, until }, client) => {
-  const db = getDb(client);
+export const findGoalChangesUntil = async ({ userId, until }) => {
+  const untilDate = new Date(`${until}T00:00:00.000Z`);
 
-  const result = await db.query(
-    `SELECT
-       daily_calorie_goal,
-       changed_on::text AS changed_on
-     FROM goal_changes
-     WHERE user_id = $1 AND changed_on <= $2
-     ORDER BY changed_on ASC, id ASC`,
-    [userId, until]
-  );
-
-  return result.rows;
+  return prisma.goal_changes.findMany({
+    where: {
+      user_id: BigInt(userId),
+      changed_on: {
+        lte: untilDate,
+      },
+    },
+    orderBy: [
+      {
+        changed_on: "asc",
+      },
+      {
+        id: "asc",
+      },
+    ],
+    select: {
+      daily_calorie_goal: true,
+      changed_on: true,
+    },
+  });
 };
 
 export const createGoal = async ({
@@ -59,29 +64,24 @@ export const createGoal = async ({
   dailyCalorieGoal,
   weightLossGoalKg,
   weightLossMonths,
-}, client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `INSERT INTO goals (
-       user_id,
-       daily_calorie_goal,
-       weight_loss_goal_kg,
-       weight_loss_months
-     )
-     VALUES ($1, $2, $3, $4)
-     RETURNING
-       id,
-       user_id,
-       daily_calorie_goal,
-       weight_loss_goal_kg,
-       weight_loss_months,
-       created_at,
-       updated_at`,
-    [userId, dailyCalorieGoal, weightLossGoalKg, weightLossMonths]
-  );
-
-  return result.rows[0];
+}) => {
+  return prisma.goals.create({
+    data: {
+      user_id: BigInt(userId),
+      daily_calorie_goal: dailyCalorieGoal,
+      weight_loss_goal_kg: weightLossGoalKg,
+      weight_loss_months: weightLossMonths,
+    },
+    select: {
+      id: true,
+      user_id: true,
+      daily_calorie_goal: true,
+      weight_loss_goal_kg: true,
+      weight_loss_months: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };
 
 export const updateGoal = async ({
@@ -89,27 +89,24 @@ export const updateGoal = async ({
   dailyCalorieGoal,
   weightLossGoalKg,
   weightLossMonths,
-}, client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `UPDATE goals
-     SET
-       daily_calorie_goal = $2,
-       weight_loss_goal_kg = $3,
-       weight_loss_months = $4,
-       updated_at = CURRENT_TIMESTAMP
-     WHERE user_id = $1
-     RETURNING
-       id,
-       user_id,
-       daily_calorie_goal,
-       weight_loss_goal_kg,
-       weight_loss_months,
-       created_at,
-       updated_at`,
-    [userId, dailyCalorieGoal, weightLossGoalKg, weightLossMonths]
-  );
-
-  return result.rows[0] || null;
+}) => {
+  return prisma.goals.update({
+    where: {
+      user_id: BigInt(userId),
+    },
+    data: {
+      daily_calorie_goal: dailyCalorieGoal,
+      weight_loss_goal_kg: weightLossGoalKg,
+      weight_loss_months: weightLossMonths,
+    },
+    select: {
+      id: true,
+      user_id: true,
+      daily_calorie_goal: true,
+      weight_loss_goal_kg: true,
+      weight_loss_months: true,
+      created_at: true,
+      updated_at: true,
+    },
+  });
 };

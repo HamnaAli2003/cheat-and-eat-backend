@@ -1,20 +1,20 @@
-import { query } from "../config/database.js";
+import prisma from "../config/prisma.js";
 
-const getDb = (client) => client || { query };
-
-// Saved-day snapshot columns, cast to float so node-pg returns numbers.
-const SAVED_COLUMNS = `
-  id,
-  user_id,
-  eaten_on::text AS eaten_on,
-  calories::float AS calories,
-  protein::float AS protein,
-  carbs::float AS carbs,
-  fat::float AS fat,
-  fiber::float AS fiber,
-  created_at,
-  updated_at
-`;
+const mapSavedDay = (savedDay) => ({
+  id: savedDay.id.toString(),
+  user_id: savedDay.user_id.toString(),
+  eaten_on:
+    savedDay.eaten_on instanceof Date
+      ? savedDay.eaten_on.toISOString().slice(0, 10)
+      : String(savedDay.eaten_on),
+  calories: Number(savedDay.calories),
+  protein: Number(savedDay.protein),
+  carbs: Number(savedDay.carbs),
+  fat: Number(savedDay.fat),
+  fiber: Number(savedDay.fiber),
+  created_at: savedDay.created_at,
+  updated_at: savedDay.updated_at,
+});
 
 export const upsertSavedDay = async (
   {
@@ -28,69 +28,81 @@ export const upsertSavedDay = async (
   },
   client
 ) => {
-  const db = getDb(client);
+  const savedDay = await prisma.saved_days.upsert({
+    where: {
+      user_id_eaten_on: {
+        user_id: BigInt(userId),
+        eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+      },
+    },
+    create: {
+      user_id: BigInt(userId),
+      eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+      calories,
+      protein,
+      carbs,
+      fat,
+      fiber,
+    },
+    update: {
+      calories,
+      protein,
+      carbs,
+      fat,
+      fiber,
+      updated_at: new Date(),
+    },
+  });
 
-  const result = await db.query(
-    `INSERT INTO saved_days (
-       user_id,
-       eaten_on,
-       calories,
-       protein,
-       carbs,
-       fat,
-       fiber
-     )
-     VALUES ($1, $2, $3, $4, $5, $6, $7)
-     ON CONFLICT (user_id, eaten_on)
-     DO UPDATE SET
-       calories = EXCLUDED.calories,
-       protein = EXCLUDED.protein,
-       carbs = EXCLUDED.carbs,
-       fat = EXCLUDED.fat,
-       fiber = EXCLUDED.fiber,
-       updated_at = CURRENT_TIMESTAMP
-     RETURNING ${SAVED_COLUMNS}`,
-    [userId, eatenOn, calories, protein, carbs, fat, fiber]
-  );
-
-  return result.rows[0];
+  return mapSavedDay(savedDay);
 };
 
-export const findSavedDayByDate = async ({ userId, eatenOn }, client) => {
-  const db = getDb(client);
+export const findSavedDayByDate = async (
+  { userId, eatenOn },
+  client
+) => {
+  const savedDay = await prisma.saved_days.findUnique({
+    where: {
+      user_id_eaten_on: {
+        user_id: BigInt(userId),
+        eaten_on: new Date(`${eatenOn}T00:00:00.000Z`),
+      },
+    },
+  });
 
-  const result = await db.query(
-    `SELECT ${SAVED_COLUMNS}
-     FROM saved_days
-     WHERE user_id = $1 AND eaten_on = $2`,
-    [userId, eatenOn]
-  );
-
-  return result.rows[0] || null;
+  return savedDay ? mapSavedDay(savedDay) : null;
 };
 
-export const findSavedDays = async ({ userId, from = null, to = null }, client) => {
-  const db = getDb(client);
+export const findSavedDays = async (
+  { userId, from = null, to = null },
+  client
+) => {
+  const where = {
+    user_id: BigInt(userId),
+  };
 
-  const conditions = ["user_id = $1"];
-  const params = [userId];
+  if (from || to) {
+    where.eaten_on = {};
 
-  if (from) {
-    params.push(from);
-    conditions.push(`eaten_on >= $${params.length}`);
+    if (from) {
+      where.eaten_on.gte = new Date(
+        `${from}T00:00:00.000Z`
+      );
+    }
+
+    if (to) {
+      where.eaten_on.lte = new Date(
+        `${to}T00:00:00.000Z`
+      );
+    }
   }
-  if (to) {
-    params.push(to);
-    conditions.push(`eaten_on <= $${params.length}`);
-  }
 
-  const result = await db.query(
-    `SELECT ${SAVED_COLUMNS}
-     FROM saved_days
-     WHERE ${conditions.join(" AND ")}
-     ORDER BY eaten_on DESC`,
-    params
-  );
+  const savedDays = await prisma.saved_days.findMany({
+    where,
+    orderBy: {
+      eaten_on: "desc",
+    },
+  });
 
-  return result.rows;
+  return savedDays.map(mapSavedDay);
 };

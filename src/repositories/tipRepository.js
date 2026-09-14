@@ -1,20 +1,24 @@
-import { query } from "../config/database.js";
-
-const getDb = (client) => client || { query };
+import prisma from "../config/prisma.js";
 
 export const findActiveTips = async (client) => {
-  const db = getDb(client);
-
-  const result = await db.query(
-    `SELECT
-       id,
-       text,
-       icon,
-       sort_order
-     FROM daily_tips
-     WHERE is_active = true
-     ORDER BY sort_order ASC, id ASC`
-  );
-
-  return result.rows;
+  return prisma.daily_tips.findMany({
+    where: {
+      is_active: true,
+    },
+    select: {
+      id: true,
+      text: true,
+      icon: true,
+      sort_order: true,
+    },
+    orderBy: [
+      {
+        sort_order: "asc",
+      },
+      {
+        id: "asc",
+      },
+    ],
+  });
 };
+
